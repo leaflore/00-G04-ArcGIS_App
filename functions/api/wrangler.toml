@@ -1,0 +1,9 @@
+# wrangler.toml - Cloudflare Project Configuration
+name = "arcgis-token-proxy"
+main = "index.js"
+compatibility_date = "2026-10-17" # Set to today's compatibility_date
+
+# Restricts your project environment parameters
+[vars]
+#Do NOT place your secrets here. You will add your actual credentials inside the the web dashboard.
+ARCGIS_CLIENT_ID = "PLACEHOLDER_KEY"
