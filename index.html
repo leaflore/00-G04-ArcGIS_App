@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>WPA ArcGIS App</title>
+        <!-- Load the ArcGIS Maps SDK for JavaScript from CDN -->
+        <script type="module" src="https://js.arcgis.com/5.1"></script>
+        <link href="styles.css" rel="stylesheet" />  
+    </head>
+    <body>
+        <p>Welcome to the WPA ArcGIS App</p>
+        <div id="root"></div>
+        <!-- There is no need to programmatically set the basemap, extent or zoom-->
+         <!-- All this information comes from the WebMap -->
+          <arcgis-map item-id="02b37471d5d84cacbebcccd785460e94">
+            <arcgis-zoom slot="top-left"></arcgis-zoom>
+          </arcgis-map>
+
+          <script type="module" src="/00-arcgisCDN/app.js"></script>
+    </body>
+</html>
