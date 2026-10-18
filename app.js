@@ -2,24 +2,10 @@
 const identityManager = await $arcgis.import("@arcgis/core/identity/IdentityManager");
 const esriConfig = await $arcgis.import("@arcgis/core/config.js");
 const SceneLayer = await $arcgis.import("@arcgis/core/layers/SceneLayer.js");
-const WebTileLayer = await $arcgis.import("@arcgis/core/layers/WebTileLayer.js");
-const Basemap = await $arcgis.import("@arcgis/core/Basemap.js");
 const OAuthInfo = await $arcgis.import("@arcgis/core/identity/OAuthInfo.js");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
 const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
-
-async function fetchCacheToken() {
-    // Using a relative path route. Cloudflare Pages Functions will map this automatically 
-    // to the correct function 
-    // endpoint.
-    const response = await fetch('/api/get-map-token');
-    if (!response.ok) {
-        throw new Error(`Token handshake failed (${response.status}): ${await response.text()}`);
-    }
-    const data = await response.json();
-    return data;
-}
 
 // Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
