@@ -1,9 +1,6 @@
-# wrangler.toml - Cloudflare Project Configuration
-name = "arcgis-token-proxy"
-main = "index.js"
-compatibility_date = "2026-10-17" # Set to today's compatibility_date
+# wrangler.toml - Unified Cloudflare Pages Configuration
+name = "fall-2026-wpa3dapp"
+compatibility_date = "2026-10-18" # Set to today's compatibility_date
 
-# Restricts your project environment parameters
-[vars]
-#Do NOT place your secrets here. You will add your actual credentials inside the the web dashboard.
-ARCGIS_CLIENT_ID = "PLACEHOLDER_KEY"
+# Tells Wrangler to deploy your curren directory as the static web root asset folder
+pages_build_output_dir = "."
