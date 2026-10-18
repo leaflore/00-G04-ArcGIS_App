@@ -15,6 +15,7 @@ async function fetchCacheToken() {
     return data;
 }
 
+// Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
     const token = await fetchCachedToken();
 
