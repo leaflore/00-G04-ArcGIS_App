@@ -1,3 +1,6 @@
+// worker.js - Cloudflare Worker for handling ArcGIS app token and OAuth configuration
+
+// ----- IMPORTANT: BEGINNING OF EXPORT WORKER FUNCTIONS -----
 async function getAppToken(env) {
     const clientId = env.ARCGIS_CLIENTTWO ?? env.ARCGIS_CLIENT_ID;
     const clientSecret = env.ARCGIS_CLIENT_SECRETTWO ?? env.ARCGIS_CLIENT_SECRET;
