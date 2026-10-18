@@ -1,8 +1,8 @@
 // app.js - Frontend Cloudflare Pages Mapping Script
 const identityManager = await $arcgis.import("@arcgis/core/identity/IdentityManager");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
-const SceneView = await $arcgis.import("@arcgis/core/view/SceneView.js");
-const MapView = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
+const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
+const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
 
 async function fetchCacheToken() {
     // Using a relative path route. Cloudflare Pages Functions will map this automatically to the correct function 
