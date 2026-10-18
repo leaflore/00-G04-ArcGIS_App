@@ -1,5 +1,7 @@
 // app.js - Frontend Cloudflare Pages Mapping Script
 const identityManager = await $arcgis.import("@arcgis/core/identity/IdentityManager");
+const esriConfig = await $arcgis.import("@arcgis/core/config.js");
+const SceneLayer = await $arcgis.import("@arcgis/core/layers/SceneLayer.js");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
 const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
@@ -25,10 +27,17 @@ async function renderApp() {
         token: token
     });
 
+    // Basemap styles, elevation and 3D buildings are authorized by the API key.
+    esriConfig.apiKey = token;
+
     const map = new Map({
-        basemap: "arcgis/dark-gray",
+        basemap: "arcgis/streets",
         ground: "world-elevation"
     });
+
+    map.add(new SceneLayer({
+        portalItem: { id: "ca0470dbbddb4db28bad74ed39949e25" }
+    }));
 
     const view = new SceneView({
         container: "viewDiv",
