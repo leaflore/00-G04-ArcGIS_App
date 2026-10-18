@@ -7,7 +7,14 @@ export async function onRequestGet(context) {
         // 1. Pull secure keys from the Cloudflare Pages context environment block
         const clientId = context.env.ARCGIS_CLIENT_ID;
         const clientSecret = context.env.ARCGIS_CLIENT_SECRET;
-    
+
+        if (!clientId || !clientSecret) {
+            return new Response(JSON.stringify({ error: "Missing ARCGIS_CLIENT_ID or ARCGIS_CLIENT_SECRET on the Worker." }), {
+                status: 500,
+                headers: { "Content-Type": "application/json" }
+            });
+        }
+
         // 2. Read secure keys stored directly inside the Cloudfare Dashboard environment variables
         const params = new URLSearchParams({
             client_id: clientId,
@@ -26,7 +33,7 @@ export async function onRequestGet(context) {
 
         console.log("ArcGIS response:", data);
         if (!response.ok || !data.access_token) {
-            return new Response(JSON.stringify({ error: "ArcGIS authentication failed." }), {
+            return new Response(JSON.stringify({ error: "ArcGIS authentication failed.", detail: data.error || null }), {
                 status: 500,
                 headers: { "Content-Type": "application/json" }
             });

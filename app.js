@@ -10,7 +10,7 @@ async function fetchCacheToken() {
     // endpoint.
     const response = await fetch('/api/get-map-token');
     if (!response.ok) {
-        throw new Error('Cloudflare locl proxy token handshake failed.');
+        throw new Error(`Token handshake failed (${response.status}): ${await response.text()}`);
     }
     const data = await response.json();
     return data;
