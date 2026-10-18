@@ -16,7 +16,7 @@ export async function onRequestGet(context) {
         });
 
         // 3. Fetch a fresh authorization token from Esri
-        const response = await fetch("https://arcgis.com", {
+        const response = await fetch("https://www.arcgis.com/sharing/rest/oauth2/token", {
             method: "POST",
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: params.toString()
@@ -37,7 +37,7 @@ export async function onRequestGet(context) {
             status: 200,
             headers: { 
                 'Content-Type': 'application/json',
-                "Cache-Control": "public, max-age=6900"
+                "Cache-Control": "private, max-age=6900"
             },
         });
 
