@@ -1,7 +1,10 @@
 # wrangler.toml - Production Unified Architecture Config
 name = "fall-2026-wpa3dapp"
+main = "src/worker.js"
 compatibility_date = "2026-10-12"
 
 # Forces wrangler to read the root directory path layout for static assets
 [assets]
 directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
