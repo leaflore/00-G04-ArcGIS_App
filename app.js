@@ -35,9 +35,15 @@ async function renderApp() {
         ground: "world-elevation"
     });
 
-    map.add(new SceneLayer({
+    const buildings = new SceneLayer({
         portalItem: { id: "ca0470dbbddb4db28bad74ed39949e25" }
-    }));
+    });
+    buildings.load().catch(err => console.error("3D buildings failed to load", err));
+    map.add(buildings);
+
+    map.basemap.load().catch(err => console.error("Basemap failed to load", err));
+    map.basemap.baseLayers.on("after-add", ({ item }) =>
+        item.load().catch(err => console.error("Basemap layer failed", item.title, err)));
 
     const view = new SceneView({
         container: "viewDiv",
