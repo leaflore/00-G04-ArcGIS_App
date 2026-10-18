@@ -4,6 +4,7 @@ const esriConfig = await $arcgis.import("@arcgis/core/config.js");
 const SceneLayer = await $arcgis.import("@arcgis/core/layers/SceneLayer.js");
 const WebTileLayer = await $arcgis.import("@arcgis/core/layers/WebTileLayer.js");
 const Basemap = await $arcgis.import("@arcgis/core/Basemap.js");
+const OAuthInfo = await $arcgis.import("@arcgis/core/identity/OAuthInfo.js");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
 const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
@@ -22,16 +23,22 @@ async function fetchCacheToken() {
 
 // Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
-    // The OAuth app token is currently rejected by ArcGIS (401), and registering a bad token also breaks public items.
-    // Re-enable fetchCacheToken() + identityManager.registerToken() once the token is valid.
+    // OAuth 2.0 user sign-in: redirects to ArcGIS, then returns here with a token for the signed-in user.
+    const { clientId } = await (await fetch('/api/oauth-config')).json();
+    if (!clientId) throw new Error("ARCGIS_CLIENT_ID is not set on the Worker.");
+
+    const sharingUrl = "https://www.arcgis.com/sharing";
+    identityManager.registerOAuthInfos([new OAuthInfo({ appId: clientId, portalUrl: "https://www.arcgis.com" })]);
+    let credential;
+    try {
+        credential = await identityManager.checkSignInStatus(sharingUrl);
+    } catch {
+        credential = await identityManager.getCredential(sharingUrl);
+    }
+    esriConfig.apiKey = credential.token;
+
     const map = new Map({
-        basemap: new Basemap({
-            baseLayers: [new WebTileLayer({
-                urlTemplate: "https://tile.openstreetmap.org/{level}/{col}/{row}.png",
-                copyright: "&copy; OpenStreetMap contributors"
-            })],
-            title: "OpenStreetMap"
-        }),
+        basemap: "arcgis/streets",
         ground: "world-elevation"
     });
 
