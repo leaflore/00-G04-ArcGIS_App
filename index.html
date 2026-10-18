@@ -4,42 +4,22 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WPA ArcGIS 3D App - Unified Cloudflare Pages</title>
-        <!-- Include the official ArcGIS Maps SDK light theme stylesheet -->
-        <script type="module" src="https://js.arcgis.com/5.1"></script>
-        <!-- link href="styles.css" rel="stylesheet" / -->
-        <link rel ="stylesheet" href="https://arcgis.com" />
-        <style>
-            /* Force the body and HTML canvas container to absorb full screen real estate */
-            body, html {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-                overflow: hidden;
-                background-color: #f3f3f3;
-            }
-            /* Style the map hosting panel container frame */
-            #viewDiv {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 1;
-            }
-        </style>
+
+        <!-- CRUCIAL MISSING LINK: Loads the structural stylesheet template rules -->
+        <link rel="stylesheet" href="https://arcgis.com/4.29/esri/themes/light/main.css" />
+
+        <!-- Your Custom Stylesheet (CRUCIAL) -->
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
+        
         <p>Welcome to the WPA ArcGIS App</p>
-        <div id="viewDiv"></div>
-        <!-- There is no need to programmatically set the basemap, extent or zoom-->
-         <!-- All this information comes from the WebMap -->
-            <arcgis-map item-id="02b37471d5d84cacbebcccd785460e94">
-            <arcgis-zoom slot="top-left"></arcgis-zoom>
-            </arcgis-map>
 
-            <!-- Load the modern modular frontend mapping script file -->
-            <script type="module" src="app.js"></script>
+        <!-- The ONLY HTML wrapper hook where your 3D SceneView mounts -->
+        <div id="viewDiv"></div>
+
+        <!-- Load the modern modular frontend mapping script file -->
+        <script type="module" src="app.js"></script>
+
     </body>
 </html>
