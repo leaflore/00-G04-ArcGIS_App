@@ -1,6 +1,0 @@
-# wrangler.toml - Unified Cloudflare Pages Configuration
-name = "fall-2026-wpa3dapp"
-compatibility_date = "2026-10-18" # Set to today's compatibility_date
-
-# Tells Wrangler to deploy your curren directory as the static web root asset folder
-pages_build_output_dir = "."

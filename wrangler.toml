@@ -1,0 +1,7 @@
+# wrangler.toml - Production Unified Architecture Config
+name = "fall-2026-wpa3dapp"
+compatibility_date = "2026-10-12"
+
+# Forces wrangler to read the root directory path layout for static assets
+[assets]
+directory = "."
