@@ -5,7 +5,8 @@ const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
 
 async function fetchCacheToken() {
-    // Using a relative path route. Cloudflare Pages Functions will map this automatically to the correct function 
+    // Using a relative path route. Cloudflare Pages Functions will map this automatically 
+    // to the correct function 
     // endpoint.
     const response = await fetch('/api/get-map-token');
     if (!response.ok) {
@@ -17,15 +18,15 @@ async function fetchCacheToken() {
 
 // Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
-    const token = await fetchCachedToken();
+    const token = (await fetchCacheToken()).token;
 
     identityManager.registerToken({
-        server: "https://arcgis.com",
+        server: "https://www.arcgis.com/sharing/rest",
         token: token
     });
 
     const map = new Map({
-        basemap: "arcgis/topographic",
+        basemap: "arcgis/dark-gray",
         ground: "world-elevation"
     });
 
@@ -33,8 +34,9 @@ async function renderApp() {
         container: "viewDiv",
         map: map,
         camera: {
-            position: { x: -118.4911, y: 34.0194, z: 2500 }, // Over Santa Monica coast
-            tilt: 60
+            position: { x: -118.4911, y: 34.0194, z: 150000 }, // Over Santa Monica coast
+            tilt: 65, // Tilts the camera up to turn your 2D map into a 3D perspective
+            heading: 0 // Sets the direction the camera is facing, 0 is north
         }
     });
 
