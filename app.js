@@ -9,19 +9,25 @@ const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js")
 
 // Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
-    // OAuth 2.0 user sign-in: redirects to ArcGIS, then returns here with a token for the signed-in user.
-    const { clientId } = await (await fetch('/api/oauth-config')).json();
-    if (!clientId) throw new Error("ARCGIS_CLIENT_ID is not set on the Worker.");
+    // Prefer the app-level OAuth token from the Worker; fall back to interactive OAuth sign-in if ArcGIS rejects it.
+    const appAuth = await fetch('/api/get-map-token').then(r => r.json()).catch(() => ({ valid: false }));
+    if (appAuth.valid) {
+        esriConfig.apiKey = appAuth.token;
+    } else {
+        console.warn("App token unavailable, using sign-in:", appAuth.reason, appAuth.checkStatus ?? "");
+        const { clientId } = await (await fetch('/api/oauth-config')).json();
+        if (!clientId) throw new Error("ARCGIS_CLIENT_ID is not set on the Worker.");
 
-    const sharingUrl = "https://www.arcgis.com/sharing";
-    identityManager.registerOAuthInfos([new OAuthInfo({ appId: clientId, portalUrl: "https://www.arcgis.com" })]);
-    let credential;
-    try {
-        credential = await identityManager.checkSignInStatus(sharingUrl);
-    } catch {
-        credential = await identityManager.getCredential(sharingUrl);
+        const sharingUrl = "https://www.arcgis.com/sharing";
+        identityManager.registerOAuthInfos([new OAuthInfo({ appId: clientId, portalUrl: "https://www.arcgis.com" })]);
+        let credential;
+        try {
+            credential = await identityManager.checkSignInStatus(sharingUrl);
+        } catch {
+            credential = await identityManager.getCredential(sharingUrl);
+        }
+        esriConfig.apiKey = credential.token;
     }
-    esriConfig.apiKey = credential.token;
 
     const map = new Map({
         basemap: "arcgis/streets",
