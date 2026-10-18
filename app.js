@@ -2,6 +2,8 @@
 const identityManager = await $arcgis.import("@arcgis/core/identity/IdentityManager");
 const esriConfig = await $arcgis.import("@arcgis/core/config.js");
 const SceneLayer = await $arcgis.import("@arcgis/core/layers/SceneLayer.js");
+const WebTileLayer = await $arcgis.import("@arcgis/core/layers/WebTileLayer.js");
+const Basemap = await $arcgis.import("@arcgis/core/Basemap.js");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
 const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
@@ -20,18 +22,16 @@ async function fetchCacheToken() {
 
 // Main renderApp function to initialize and render the ArcGIS map and scene view
 async function renderApp() {
-    const token = (await fetchCacheToken()).token;
-
-    identityManager.registerToken({
-        server: "https://www.arcgis.com/sharing/rest",
-        token: token
-    });
-
-    // Basemap styles, elevation and 3D buildings are authorized by the API key.
-    esriConfig.apiKey = token;
-
+    // The OAuth app token is currently rejected by ArcGIS (401), and registering a bad token also breaks public items.
+    // Re-enable fetchCacheToken() + identityManager.registerToken() once the token is valid.
     const map = new Map({
-        basemap: "arcgis/streets",
+        basemap: new Basemap({
+            baseLayers: [new WebTileLayer({
+                urlTemplate: "https://tile.openstreetmap.org/{level}/{col}/{row}.png",
+                copyright: "&copy; OpenStreetMap contributors"
+            })],
+            title: "OpenStreetMap"
+        }),
         ground: "world-elevation"
     });
 
