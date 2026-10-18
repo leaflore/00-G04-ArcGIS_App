@@ -39,8 +39,13 @@ export async function onRequestGet(context) {
             });
         }
 
+        // Temporary diagnostic: does ArcGIS accept this token when called from the Worker itself?
+        const check = await fetch("https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/styles/arcgis/streets?type=style", {
+            headers: { Authorization: `Bearer ${data.access_token}` }
+        });
+
         // 4. Return the token, caching it on the user's browswer for 115 minutes
-        return new Response(JSON.stringify({ token: data.access_token }), {
+        return new Response(JSON.stringify({ token: data.access_token, expires_in: data.expires_in, workerCheckStatus: check.status }), {
             status: 200,
             headers: { 
                 'Content-Type': 'application/json',
