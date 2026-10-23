@@ -43,8 +43,17 @@ include the URL used for sign-in if interactive authentication is needed.
 After Cloudflare deploys the commit, open the Worker/custom-domain homepage. Check
 that the scene loads and the drawing buttons enable, draw a point or polygon, then
 change the buffer and confirm the building count and highlights refresh. Statistics
-cover the buildings currently loaded in the scene. To view the previous app, use
+cover the buildings currently loaded in the scene within a one-mile radius of
+Wonderland Park Avenue. The dashed boundary shows this area. Queries wait only for
+the buildings layer, cancel superseded requests, and time out after eight seconds
+with a Retry query button. Camera navigation refreshes the query; rendering a
+sketch, buffer, or highlight does not restart it. To view the previous app, use
 the **Open original app (backup)** link.
+
+Run the query lifecycle regression checks with `node --test tests/client-query.test.mjs`.
+These checks use mocked ArcGIS objects to cover rendering feedback, timeout and retry,
+late results after clearing, camera navigation, and selections outside the study area.
+They do not measure live ArcGIS loading or validate a deployed Cloudflare instance.
 
 To restore the previous homepage, copy `index-backup.html` over `index.html` and
 redeploy; the original `app.js` and `styles.css` remain available.

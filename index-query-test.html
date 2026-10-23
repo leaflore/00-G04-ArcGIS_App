@@ -19,7 +19,7 @@
         <aside id="queryPanel" aria-label="Client-side building queries">
             <div class="eyebrow">WPA / EXPERIMENT</div>
             <h1>Wonderland Park Avenue</h1>
-            <p>Los Angeles, CA · Explore nearby 3D buildings</p>
+            <p>Los Angeles, CA · One-mile building study area</p>
             <fieldset id="queryControls" disabled>
                 <legend>Draw a query area</legend>
                 <div class="tools">
@@ -34,6 +34,7 @@
                 <select id="statField"><option value="">Count only</option></select>
                 <div class="tools secondary">
                     <button type="button" id="clearQuery">Clear</button>
+                    <button type="button" id="retryQuery" disabled>Retry query</button>
                     <button type="button" id="homeQuery">Return to street</button>
                 </div>
             </fieldset>
@@ -42,7 +43,7 @@
                 <div class="total"><strong id="buildingCount">—</strong><span>selected buildings</span></div>
                 <dl id="statistics"><div><dt>Minimum</dt><dd id="statMin">—</dd></div><div><dt>Average</dt><dd id="statAvg">—</dd></div><div><dt>Maximum</dt><dd id="statMax">—</dd></div></dl>
             </section>
-            <p class="hint">Results cover buildings currently loaded in the scene, not all Los Angeles buildings. Pan or zoom to refresh the selection. Numeric statistics ignore null values; units follow the chosen source attribute.</p>
+            <p class="hint">Buildings are filtered to a one-mile radius around Wonderland Park Avenue (dashed boundary). Queries are clipped to this area and cover currently loaded buildings. Pan or zoom to refresh; use Retry query after a loading timeout. Numeric statistics ignore null values; units follow the chosen source attribute.</p>
             <a href="index-backup.html">Open original app (backup)</a>
         </aside>
 

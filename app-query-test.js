@@ -55,11 +55,14 @@ async function renderApp() {
     });
 
     const buildings = new SceneLayer({
-        portalItem: { id: "ca0470dbbddb4db28bad74ed39949e25" },
-        outFields: ["*"]
+        portalItem: { id: "ca0470dbbddb4db28bad74ed39949e25" }
     });
 
-    buildings.load().catch(err => console.error("3D buildings failed to load", err));
+    await buildings.load();
+    // Only cache attributes that can be selected for statistics, plus the ID for highlighting.
+    buildings.outFields = [buildings.objectIdField, ...buildings.fields
+        .filter(field => ["small-integer", "integer", "single", "double", "long", "big-integer"].includes(field.type))
+        .map(field => field.name)];
     map.add(buildings);
 
     map.basemap.load().catch(err => console.error("Basemap failed to load", err));
@@ -152,9 +155,13 @@ renderApp().catch(err => {
     document.getElementById("queryStatus").textContent = "Unable to initialize the test. Check authentication, network access, and the browser console, then reload.";
 });
 async function setupClientQueries(view, buildings) {
-    const [GraphicsLayer, SketchViewModel, Graphic, bufferOperator, reactiveUtils] = await $arcgis.import([
+    const [GraphicsLayer, SketchViewModel, Graphic, bufferOperator, reactiveUtils,
+        Point, webMercatorUtils, intersectionOperator] = await $arcgis.import([
         "@arcgis/core/layers/GraphicsLayer.js", "@arcgis/core/widgets/Sketch/SketchViewModel.js",
-        "@arcgis/core/Graphic.js", "@arcgis/core/geometry/operators/geodesicBufferOperator.js", "@arcgis/core/core/reactiveUtils.js"
+        "@arcgis/core/Graphic.js", "@arcgis/core/geometry/operators/geodesicBufferOperator.js",
+        "@arcgis/core/core/reactiveUtils.js", "@arcgis/core/geometry/Point.js",
+        "@arcgis/core/geometry/support/webMercatorUtils.js",
+        "@arcgis/core/geometry/operators/intersectionOperator.js"
     ]);
     const el = id => document.getElementById(id);
     await view.when();
@@ -162,53 +169,95 @@ async function setupClientQueries(view, buildings) {
     await buildings.load();
     const layerView = await view.whenLayerView(buildings);
     await bufferOperator.load();
-    const bufferLayer = new GraphicsLayer({ title: "Query buffer" });
-    const sketchLayer = new GraphicsLayer({ title: "Query geometry" });
-    view.map.addMany([bufferLayer, sketchLayer]);
+
+    // One geodesic mile is the smallest requested neighborhood scope.
+    // Keep the study area in the view's spatial reference for local intersection operations.
+    const street = new Point({ longitude: -118.3895, latitude: 34.1148 });
+    const geographicArea = bufferOperator.execute(street, 1609.344, { unit: "meters" });
+    const studyArea = webMercatorUtils.project(geographicArea, view.spatialReference);
+    if (!studyArea) throw new Error("Could not project the Wonderland study area.");
+    layerView.filter = { geometry: studyArea, spatialRelationship: "intersects" };
+    const studyLayer = new GraphicsLayer({ title: "Wonderland study area - 1 mile", listMode: "hide" });
+    studyLayer.add(new Graphic({ geometry: studyArea, symbol: {
+        type: "simple-fill", color: [0, 0, 0, 0],
+        outline: { color: "#237787", width: 1.5, style: "short-dash" }
+    }}));
+    const bufferLayer = new GraphicsLayer({ title: "Query buffer", listMode: "hide" });
+    const sketchLayer = new GraphicsLayer({ title: "Query geometry", listMode: "hide" });
+    view.map.addMany([studyLayer, bufferLayer, sketchLayer]);
     const sketch = new SketchViewModel({ view, layer: sketchLayer,
         defaultCreateOptions: { hasZ: false }, defaultUpdateOptions: { tool: "reshape", toggleToolOnClick: false },
         polygonSymbol: { type: "simple-fill", color: [0,160,190,0.12], outline: { color: "#007f99", width: 2 } }
     });
-    // Discover LA attributes; the Helsinki example's year/material fields may not exist here.
     const numeric = new Set(["small-integer", "integer", "single", "double", "long", "big-integer"]);
     const fields = buildings.fields.filter(f => numeric.has(f.type) && f.name !== buildings.objectIdField);
     fields.forEach(f => el("statField").add(new Option(f.alias || f.name, f.name)));
     const height = fields.find(f => /height/i.test(f.name));
     if (height) el("statField").value = height.name;
-    let geometry = null, highlight = null, revision = 0, timer;
-    const reset = () => {
+    let geometry = null, highlight = null, revision = 0, debounceTimer, activeQuery;
+    const status = message => { el("queryStatus").textContent = message; };
+    function reset() {
         highlight?.remove(); highlight = null;
         ["buildingCount", "statMin", "statAvg", "statMax"].forEach(id => el(id).textContent = "—");
-    };
+    }
+    function invalidate() {
+        revision++;
+        clearTimeout(debounceTimer);
+        activeQuery?.abort();
+        activeQuery = null;
+    }
     function clear() {
-        revision++; clearTimeout(timer); geometry = null;
+        invalidate(); geometry = null;
         sketch.cancel(); sketchLayer.removeAll(); bufferLayer.removeAll(); reset();
-        el("queryStatus").textContent = "Choose Point, Line, or Polygon to start a query.";
+        el("retryQuery").disabled = true;
+        status("Choose Point, Line, or Polygon to query buildings within the one-mile study area.");
     }
     function schedule() {
-        const version = ++revision;
-        clearTimeout(timer); reset();
+        invalidate();
+        el("retryQuery").disabled = !geometry;
         if (!geometry) return;
-        el("queryStatus").textContent = "Waiting for loaded buildings…";
-        timer = setTimeout(() => run(version), 180);
+        const version = revision;
+        status("Preparing building query…");
+        debounceTimer = setTimeout(() => run(version), 180);
     }
     async function run(version) {
+        if (version !== revision || !geometry) return;
+        const controller = new AbortController();
+        activeQuery = controller;
+        const deadline = setTimeout(() => controller.abort(), 8000);
+        const started = performance.now();
         try {
-            await reactiveUtils.whenOnce(() => !view.updating && !layerView.updating);
-            if (version !== revision || !geometry) return;
-            if (layerView.suspended) { el("queryStatus").textContent = "Zoom in until the buildings layer is visible."; return; }
+            // Update our overlay BEFORE waiting. Never watch view.updating: our own
+            // sketch, buffer and highlight rendering changes that flag and caused a loop.
             const distance = Number(el("bufferSize").value);
-            const area = distance ? bufferOperator.execute(geometry, distance, { unit: "meters" }) : geometry;
+            const buffered = distance ? bufferOperator.execute(geometry, distance, { unit: "meters" }) : geometry;
+            const area = intersectionOperator.execute(buffered, studyArea);
             bufferLayer.removeAll();
-            if (distance) bufferLayer.add(new Graphic({ geometry: area, symbol: sketch.polygonSymbol }));
+            if (area && distance) bufferLayer.add(new Graphic({ geometry: area, symbol: sketch.polygonSymbol }));
+            if (!area) {
+                reset(); el("buildingCount").textContent = "0";
+                status("This shape is outside the one-mile study area. Return to the street and draw nearby.");
+                return;
+            }
+            if (layerView.suspended) { status("Zoom in until the buildings layer is visible, then choose Retry query."); return; }
+            status("Waiting for the buildings layer (up to 8 seconds)…");
+            await reactiveUtils.whenOnce(() => !layerView.updating, { signal: controller.signal });
+            if (version !== revision) return;
+            status("Querying loaded buildings…");
             const query = layerView.createQuery();
-            query.geometry = area; query.spatialRelationship = "intersects"; query.returnGeometry = false;
+            // createQuery incorporates the layer-view filter. Clip explicitly because
+            // replacing query.geometry would otherwise replace that spatial condition.
+            query.geometry = area; query.spatialRelationship = "intersects";
+            query.outFields = []; query.returnGeometry = false;
             query.outStatistics = [{ onStatisticField: buildings.objectIdField, outStatisticFieldName: "selected_count", statisticType: "count" }];
             const field = el("statField").value;
             if (field) ["min", "avg", "max"].forEach(type => query.outStatistics.push({ onStatisticField: field, outStatisticFieldName: `value_${type}`, statisticType: type }));
             const idQuery = layerView.createQuery();
             idQuery.geometry = area; idQuery.spatialRelationship = "intersects";
-            const [result, ids] = await Promise.all([layerView.queryFeatures(query), layerView.queryObjectIds(idQuery)]);
+            const options = { signal: controller.signal };
+            const [result, ids] = await Promise.all([
+                layerView.queryFeatures(query, options), layerView.queryObjectIds(idQuery, options)
+            ]);
             if (version !== revision) return;
             if (result.exceededTransferLimit) throw new Error("Incomplete statistics returned");
             const stats = result.features[0]?.attributes || {};
@@ -219,11 +268,21 @@ async function setupClientQueries(view, buildings) {
                 el(id).textContent = field && count && value != null ? Number(value).toLocaleString(undefined, { maximumFractionDigits: 2 }) : "—";
             }
             highlight?.remove(); highlight = ids?.length ? layerView.highlight(ids) : null;
-            el("queryStatus").textContent = count ? "Selection updated from buildings loaded in this scene." : "No loaded buildings intersect. Increase the buffer or zoom in.";
+            const elapsed = ((performance.now() - started) / 1000).toFixed(1);
+            status(count ? `Selection updated in ${elapsed} s from loaded buildings within one mile.`
+                : "No loaded buildings intersect. Increase the buffer or zoom in, then retry.");
         } catch (error) {
             if (version !== revision) return;
-            reset(); console.error("Client-side query failed", error);
-            el("queryStatus").textContent = "Query failed. Try Count only or zoom in. Check the console for layer/query support details.";
+            reset();
+            if (controller.signal.aborted) {
+                status("Buildings did not finish within 8 seconds. Zoom closer or wait for buildings to appear, then choose Retry query.");
+            } else {
+                console.error("Client-side query failed", error);
+                status("Query failed. Try Count only and Retry query. See the console for details.");
+            }
+        } finally {
+            clearTimeout(deadline);
+            if (activeQuery === controller) activeQuery = null;
         }
     }
     const buttons = [...document.querySelectorAll("[data-tool]")];
@@ -234,11 +293,13 @@ async function setupClientQueries(view, buildings) {
     el("bufferSize").addEventListener("input", () => { el("bufferValue").textContent = `${el("bufferSize").value} m`; schedule(); });
     el("statField").addEventListener("change", schedule);
     el("clearQuery").addEventListener("click", clear);
+    el("retryQuery").addEventListener("click", schedule);
     el("homeQuery").addEventListener("click", () => view.goTo(home).catch(error => { if (error.name !== "AbortError") console.error(error); }));
-    reactiveUtils.watch(() => view.updating || layerView.updating, updating => {
+    // Refresh only for actual camera navigation. Graphics updates must not requery.
+    reactiveUtils.watch(() => view.stationary, stationary => {
         if (!geometry) return;
-        if (updating) { revision++; reset(); el("queryStatus").textContent = "Scene updating; waiting to refresh results…"; }
-        else schedule();
+        if (stationary) schedule();
+        else { invalidate(); status("Map moving; results will refresh when navigation stops."); }
     });
     el("queryControls").disabled = false;
     clear();
