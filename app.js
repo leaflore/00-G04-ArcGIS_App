@@ -65,6 +65,9 @@ async function renderApp() {
     map.basemap.baseLayers.on("after-add", ({ item }) =>
         item.load().catch(err => console.error("Basemap layer failed", item.title, err)));
 
+
+    // ----- NOTE: Look into SceneView class -----
+    // Initialize the SceneView with the map and camera settings
     const view = new SceneView({
         container: "viewDiv",
         map: map,
