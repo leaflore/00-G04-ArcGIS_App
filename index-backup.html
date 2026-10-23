@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WPA ArcGIS 3D App - Unified Cloudflare Pages</title>
+
+        <!-- CRUCIAL MISSING LINK: Loads the structural stylesheet template rules -->
+        <link rel="stylesheet" href="https://js.arcgis.com/5.1/esri/themes/light/main.css" />
+
+        <!-- Defines the global $arcgis used by app.js -->
+        <script type="module" src="https://js.arcgis.com/5.1/"></script>
+
+        <!-- Your Custom Stylesheet (CRUCIAL) -->
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        
+        <p>Welcome to the WPA ArcGIS App</p>
+
+        <!-- The ONLY HTML wrapper hook where your 3D SceneView mounts -->
+        <div id="viewDiv"></div>
+
+        <!-- Load the modern modular frontend mapping script file -->
+        <script type="module" src="app.js"></script>
+
+    </body>
+</html>

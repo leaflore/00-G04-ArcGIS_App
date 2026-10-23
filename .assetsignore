@@ -1,0 +1,9 @@
+# Only browser assets are public. src/worker.js is bundled separately by Wrangler.
+*
+!index.html
+!index-backup.html
+!index-query-test.html
+!app.js
+!app-query-test.js
+!styles.css
+!styles-query-test.css

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wonderland Park Avenue — Query Test</title>
+
+        <!-- ArcGIS SDK styles -->
+        <link rel="stylesheet" href="https://js.arcgis.com/5.1/esri/themes/light/main.css" />
+
+        <!-- Defines the global $arcgis used by app-query-test.js -->
+        <script type="module" src="https://js.arcgis.com/5.1/"></script>
+
+        <!-- Client-side query controls and map layout -->
+        <link rel="stylesheet" href="styles-query-test.css"/>
+    </head>
+    <body>
+        
+        <aside id="queryPanel" aria-label="Client-side building queries">
+            <div class="eyebrow">WPA / EXPERIMENT</div>
+            <h1>Wonderland Park Avenue</h1>
+            <p>Los Angeles, CA · Explore nearby 3D buildings</p>
+            <fieldset id="queryControls" disabled>
+                <legend>Draw a query area</legend>
+                <div class="tools">
+                    <button type="button" data-tool="point" aria-pressed="false">Point</button>
+                    <button type="button" data-tool="polyline" aria-pressed="false">Line</button>
+                    <button type="button" data-tool="polygon" aria-pressed="false">Polygon</button>
+                </div>
+                <p class="hint">Click to place points. Double-click to finish a line or polygon. Click a finished shape to edit it. Esc cancels drawing.</p>
+                <label for="bufferSize">Buffer <output id="bufferValue" for="bufferSize">100 m</output></label>
+                <input id="bufferSize" type="range" min="0" max="1000" step="10" value="100">
+                <label for="statField">Building attribute</label>
+                <select id="statField"><option value="">Count only</option></select>
+                <div class="tools secondary">
+                    <button type="button" id="clearQuery">Clear</button>
+                    <button type="button" id="homeQuery">Return to street</button>
+                </div>
+            </fieldset>
+            <div id="queryStatus" role="status" aria-live="polite">Loading scene and building attributes…</div>
+            <section aria-label="Query results">
+                <div class="total"><strong id="buildingCount">—</strong><span>selected buildings</span></div>
+                <dl id="statistics"><div><dt>Minimum</dt><dd id="statMin">—</dd></div><div><dt>Average</dt><dd id="statAvg">—</dd></div><div><dt>Maximum</dt><dd id="statMax">—</dd></div></dl>
+            </section>
+            <p class="hint">Results cover buildings currently loaded in the scene, not all Los Angeles buildings. Pan or zoom to refresh the selection. Numeric statistics ignore null values; units follow the chosen source attribute.</p>
+            <a href="index-backup.html">Open original app (backup)</a>
+        </aside>
+
+        <!-- SceneView mounts here -->
+        <div id="viewDiv"></div>
+
+        <!-- This browser module calls /api/get-map-token and /api/oauth-config.
+             Cloudflare routes those requests to src/worker.js through wrangler.toml.
+             worker.js runs on the server and is not loaded with a script tag. -->
+        <script type="module" src="app-query-test.js"></script>
+
+    </body>
+</html>

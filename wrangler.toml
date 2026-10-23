@@ -1,10 +1,13 @@
-# wrangler.toml - Production Unified Architecture Config
+# Deploy the server Worker and browser assets together with Cloudflare Workers.
 name = "fall-2026-wpa3dapp"
+# Server entry point; do not load this file from index.html.
 main = "src/worker.js"
 compatibility_date = "2026-10-12"
 
-# Forces wrangler to read the root directory path layout for static assets
+# Serve index.html and the app/CSS files. .assetsignore limits public files.
 [assets]
 directory = "."
+# Matches env.ASSETS.fetch(request) in src/worker.js.
 binding = "ASSETS"
+# Browser fetch('/api/...') requests run the Worker before asset handling.
 run_worker_first = ["/api/*"]

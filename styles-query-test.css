@@ -1,0 +1,46 @@
+html, body {
+  padding: 0%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents double scrolling bars */
+}
+
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+body { font-family: system-ui, sans-serif; color: #173449; }
+#queryPanel { position: absolute; z-index: 2; top: 16px; right: 16px; width: 330px; max-width: calc(100vw - 64px); max-height: calc(100dvh - 64px); overflow-y: auto; padding: 22px; background: #fffffff5; border: 1px solid #d5e0e5; border-radius: 12px; box-shadow: 0 8px 32px #13324630; }
+h1 { font-size: 23px; line-height: 1.2; margin: 8px 0; }
+p { font-size: 13px; line-height: 1.5; }
+.eyebrow { color: #237787; font-size: 11px; letter-spacing: .15em; font-weight: 700; }
+fieldset { border: 0; padding: 0; margin: 20px 0 12px; min-width: 0; }
+legend, label { font-size: 13px; font-weight: 650; margin-bottom: 10px; }
+label { display: block; margin-top: 16px; }
+.tools { display: flex; gap: 8px; }
+button, select { font: inherit; font-size: 13px; border: 1px solid #b8cbd4; background: white; color: #173449; padding: 10px; border-radius: 6px; }
+button { cursor: pointer; flex: 1; }
+button[aria-pressed=true] { background: #155d70; color: white; }
+button:disabled { cursor: wait; opacity: .5; }
+button:hover:enabled { border-color: #155d70; }
+:focus-visible { outline: 3px solid #00a6ce; outline-offset: 2px; }
+input, select { width: 100%; box-sizing: border-box; }
+output { float: right; font-weight: normal; }
+.secondary { margin-top: 16px; }
+.hint { color: #536b7a; font-size: 12px; }
+#queryStatus { padding: 12px; background: #eef5f7; border-radius: 6px; font-size: 13px; }
+.total { display: flex; align-items: baseline; gap: 10px; margin: 18px 0; }
+.total strong { font-size: 36px; }
+.total span { font-size: 13px; }
+dl { display: flex; justify-content: space-between; gap: 8px; }
+dt { color: #536b7a; font-size: 12px; }
+dd { margin: 6px 0; font-weight: 650; }
+a { color: #155d70; font-size: 13px; }
+@media (max-width: 600px) { #queryPanel { top: auto; bottom: 12px; right: 12px; left: 12px; width: auto; max-width: none; max-height: 43dvh; padding: 16px; } }
