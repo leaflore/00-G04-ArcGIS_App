@@ -1,0 +1,18 @@
+{
+  "name": "wonderland-park-research-map",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-research.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@arcgis/ai-components": "5.1.0",
+    "@arcgis/core": "5.1.0",
+    "@arcgis/map-components": "5.1.0",
+    "@esri/calcite-components": "5.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

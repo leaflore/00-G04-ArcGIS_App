@@ -16,7 +16,11 @@
     </head>
     <body>
         
-        <aside id="queryPanel" aria-label="Client-side building queries">
+        <main id="appShell">
+        <section id="mapPane" aria-label="Wonderland Park Avenue 3D research map">
+        <details id="queryPanel" aria-label="Client-side building queries">
+            <summary>Building query controls</summary>
+            <div class="query-panel-body">
             <div class="eyebrow">WPA / EXPERIMENT</div>
             <h1>Wonderland Park Avenue</h1>
             <p>Los Angeles, CA · One-mile building study area</p>
@@ -45,14 +49,39 @@
             </section>
             <p class="hint">Buildings are filtered to a one-mile radius around Wonderland Park Avenue (dashed boundary). Queries are clipped to this area and cover currently loaded buildings. Pan or zoom to refresh; use Retry query after a loading timeout. Numeric statistics ignore null values; units follow the chosen source attribute.</p>
             <a href="index-backup.html">Open original app (backup)</a>
-        </aside>
+        </div>
+        </details>
 
         <!-- SceneView mounts here -->
         <div id="viewDiv"></div>
+        </section>
+        <aside id="researchSidebar" aria-label="Wonderland research assistant">
+            <header class="research-header">
+                <div class="eyebrow">WONDERLAND RESEARCH</div>
+                <h2>Ask about the neighborhood</h2>
+                <p>Explore houses, architects, landscapes, and community history with source citations.</p>
+            </header>
+            <form id="researchSearchForm" class="research-search">
+                <label for="researchQuestion">Search the research catalog</label>
+                <input id="researchQuestion" name="question" type="search" maxlength="1500" placeholder="Try: 8941, Gregory Ain, or C.O.R.E." required>
+                <button type="submit">Search research</button>
+            </form>
+            <p id="researchAssistantStatus" role="status" aria-live="polite">Loading the research catalog…</p>
+            <div class="research-ai-controls">
+                <button type="button" id="enableEsriAssistant">Connect Esri AI chat</button>
+                <p class="hint">Esri AI requires your ArcGIS Online organization sign-in and AI access. Local research search is available without AI.</p>
+            </div>
+            <div id="researchAssistant" hidden></div>
+            <section id="researchResults" aria-label="Cited research results" aria-live="polite">
+                <p class="hint">Try a house number, architect, date range, or landscape topic. Use Locate house to explore a result in the scene.</p>
+            </section>
+        </aside>
+        </main>
 
         <!-- This browser module calls /api/get-map-token and /api/oauth-config.
              Cloudflare routes those requests to src/worker.js through wrangler.toml.
              worker.js runs on the server and is not loaded with a script tag. -->
+        <script type="module" src="src/research-assistant.js"></script>
         <script type="module" src="app-query-test.js"></script>
 
     </body>

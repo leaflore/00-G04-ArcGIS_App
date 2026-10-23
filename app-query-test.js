@@ -119,6 +119,11 @@ async function renderApp() {
     // ----- ADD: 3D buildings and POI layer to the map -----
     map.add(poiLayer);
 
+    // Research can load independently; a catalog failure must not disable building queries.
+    setupResearchLayer(view, map).catch(error => {
+        console.error("Research layer failed to load", error);
+        document.getElementById("researchAssistantStatus").textContent = "The research map layer could not load. The research catalog can still be searched in the sidebar.";
+    });
     await setupClientQueries(view, buildings);
 
     view.when(() => {
@@ -127,7 +132,7 @@ async function renderApp() {
 
         view.on("pointer-move", (event) => {
             if (document.querySelector("[data-tool][aria-pressed=true]")) return;
-            view.hitTest(event).then((response) => {
+            view.hitTest(event, { include: [poiLayer] }).then((response) => {
                 // Filter the hit test results to only include graphics from the POI layer
                 const results = response.results.filter(r => r.type === "graphic" && r.graphic.layer === poiLayer);
 
@@ -138,7 +143,7 @@ async function renderApp() {
 
                 } else {
                     view.container.style.cursor = "default";
-                    view.closePopup();
+                    if (view.popup.features?.some(feature => feature.layer === poiLayer)) view.closePopup();
                     
                 }
             });
@@ -303,4 +308,43 @@ async function setupClientQueries(view, buildings) {
     });
     el("queryControls").disabled = false;
     clear();
+}
+
+
+async function setupResearchLayer(view, map) {
+    const [GeoJSONLayer, response] = await Promise.all([
+        $arcgis.import("@arcgis/core/layers/GeoJSONLayer.js"),
+        fetch("data/research-evidence.json", { cache: "no-cache" })
+    ]);
+    if (!response.ok) throw new Error(`Research catalog returned HTTP ${response.status}`);
+    const corpus = await response.json();
+    const layer = new GeoJSONLayer({
+        url: new URL("data/wonderland-houses.geojson", window.location.href).href,
+        title: "Wonderland houses - cited research",
+        objectIdField: "objectid", outFields: ["*"],
+        elevationInfo: { mode: "relative-to-ground", offset: 3 },
+        renderer: { type: "simple", symbol: {
+            type: "simple-marker", style: "circle", size: 9, color: "#d66b37",
+            outline: { color: "white", width: 1.5 }
+        }},
+        popupTemplate: {
+            title: "{house_name}",
+            content: [{ type: "fields", fieldInfos: [
+                { fieldName: "address", label: "Address" },
+                { fieldName: "architect", label: "Index architect" },
+                { fieldName: "research_architect", label: "Research attribution" },
+                { fieldName: "year_text", label: "Index date" },
+                { fieldName: "landscape_designer", label: "Documented landscape attribution" },
+                { fieldName: "research_summary", label: "Research findings" },
+                { fieldName: "record_issues", label: "Uncertainty / conflicting records" },
+                { fieldName: "source_rows", label: "Original spreadsheet rows" },
+                { fieldName: "location_status", label: "Map location basis" }
+            ]}]
+        }
+    });
+    map.add(layer);
+    await layer.load();
+    window.dispatchEvent(new CustomEvent("wonderland-research-ready", {
+        detail: { view, layer, records: corpus.records, evidence: corpus.evidence, sources: corpus.sources }
+    }));
 }

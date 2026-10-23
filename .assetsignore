@@ -7,3 +7,15 @@
 !app-query-test.js
 !styles.css
 !styles-query-test.css
+
+!src/
+!src/research-assistant.js
+!src/research-search.js
+src/worker.js
+src/research-ai.js
+!assets/
+!assets/research-*.js
+!assets/research-*.css
+!data/
+!data/research-evidence.json
+!data/wonderland-houses.geojson

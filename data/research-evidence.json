@@ -1,0 +1,3867 @@
+{
+  "version": 1,
+  "updated": "2026-10-23",
+  "records": [
+    {
+      "objectid": 1,
+      "house_id": "wpa-8873-skyline-drive",
+      "address": "8873 Skyline Drive",
+      "house_name": "8873 Skyline Drive",
+      "architect": "Bryant,Robbins & Brown",
+      "year_min": 1977,
+      "year_max": 1977,
+      "year_text": "1977",
+      "contractor": "Leo Stone",
+      "original_owner": "Leo Stone",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 2",
+      "latitude": 34.114075,
+      "longitude": -118.38766352,
+      "parcel_apn": "5564-016-009",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 2,
+      "house_id": "wpa-8905-hollywood-hills-road",
+      "address": "8905 Hollywood Hills Road",
+      "house_name": "8905 Hollywood Hills Road",
+      "architect": "",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "C.D. Watkins",
+      "original_owner": "C.D. Watkins",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 3",
+      "latitude": 34.11375594,
+      "longitude": -118.38773557,
+      "parcel_apn": "5564-019-056",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 3,
+      "house_id": "wpa-8909-wonderland-park-avenue",
+      "address": "8909 Wonderland Park Avenue",
+      "house_name": "8909 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1961,
+      "year_max": 1961,
+      "year_text": "1961",
+      "contractor": "Joseph A. Rohrer",
+      "original_owner": "Joseph A. Rohrer",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 4",
+      "latitude": 34.11419923,
+      "longitude": -118.38785449,
+      "parcel_apn": "5564-016-031",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 4,
+      "house_id": "wpa-8912-wonderland-park-avenue",
+      "address": "8912 Wonderland Park Avenue",
+      "house_name": "8912 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "Gillbert D.Eyer",
+      "original_owner": "Gillbert D.Eyer",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 5",
+      "latitude": 34.11375995,
+      "longitude": -118.38809592,
+      "parcel_apn": "5564-019-072",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 5,
+      "house_id": "wpa-8913-wonderland-park-avenue",
+      "address": "8913 Wonderland Park Avenue",
+      "house_name": "8913 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1961,
+      "year_max": 1961,
+      "year_text": "1961",
+      "contractor": "Joseph A. Rohrer",
+      "original_owner": "Joseph A. Rohrer",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 6",
+      "latitude": 34.11422459,
+      "longitude": -118.38805012,
+      "parcel_apn": "5564-016-032",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 6,
+      "house_id": "wpa-8917-wonderland-park-avenue",
+      "address": "8917 Wonderland Park Avenue",
+      "house_name": "8917 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "Joseph A. Rohrer",
+      "original_owner": "Edward Irwin",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 7",
+      "latitude": 34.11422652,
+      "longitude": -118.38831586,
+      "parcel_apn": "5564-016-033",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 7,
+      "house_id": "wpa-8918-wonderland-park-avenue",
+      "address": "8918 Wonderland Park Avenue",
+      "house_name": "Rohrer Residence",
+      "architect": "",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "Joseph Rohrer",
+      "original_owner": "Joseph Rohrer",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 8, 9",
+      "latitude": 34.1138064,
+      "longitude": -118.38859097,
+      "parcel_apn": "5564-019-045",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 8, 9",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 8,
+      "house_id": "wpa-8921-wonderland-park-avenue",
+      "address": "8921 Wonderland Park Avenue",
+      "house_name": "Walker Residence",
+      "architect": "Paul Bogart",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "Richards Contractor",
+      "original_owner": "W.G. Walker",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 10",
+      "latitude": 34.11433473,
+      "longitude": -118.38857562,
+      "parcel_apn": "5564-016-034",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 9,
+      "house_id": "wpa-8922-wonderland-park-avenue",
+      "address": "8922 Wonderland Park Avenue",
+      "house_name": "Frucht Residence",
+      "architect": "",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "Grinnell Associates",
+      "original_owner": "P. Frucht",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 11, 12",
+      "latitude": 34.11384941,
+      "longitude": -118.38892989,
+      "parcel_apn": "5564-019-046",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 11, 12",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 10,
+      "house_id": "wpa-8925-wonderland-park-avenue",
+      "address": "8925 Wonderland Park Avenue",
+      "house_name": "Kunin Residence",
+      "architect": "Kunin Sons and Co",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "Kunin sons and co",
+      "original_owner": "Kunin sons and co",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 13",
+      "latitude": 34.11430634,
+      "longitude": -118.38887572,
+      "parcel_apn": "5564-016-035",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 11,
+      "house_id": "wpa-8926-wonderland-park-avenue",
+      "address": "8926 Wonderland Park Avenue",
+      "house_name": "Crain Residence / Mr and Mrs Robert Crain Residence",
+      "architect": "",
+      "year_min": 1957,
+      "year_max": 1958,
+      "year_text": "1958 / 1957",
+      "contractor": "Century BLDG. & Development Co.",
+      "original_owner": "Robert Crain / Robert and Sandra Crain",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 14, 15",
+      "latitude": 34.11389251,
+      "longitude": -118.38920491,
+      "parcel_apn": "5564-019-047",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 14, 15; Index dates disagree or are uncertain: 1958 / 1957",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 12,
+      "house_id": "wpa-8930-wonderland-park-avenue",
+      "address": "8930 Wonderland Park Avenue",
+      "house_name": "Ravetch House",
+      "architect": "",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "",
+      "original_owner": "Irving D. Ravetch",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 16, 17",
+      "latitude": 34.11393599,
+      "longitude": -118.38946532,
+      "parcel_apn": "5564-019-048",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 16, 17",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 13,
+      "house_id": "wpa-8933-wonderland-park-avenue",
+      "address": "8933 Wonderland Park Avenue",
+      "house_name": "Jorgenson Residence",
+      "architect": "",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "Joseph A. Rohrer",
+      "original_owner": "Elinor Jorgenson",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 18",
+      "latitude": 34.11447048,
+      "longitude": -118.38933333,
+      "parcel_apn": "5564-016-037",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 14,
+      "house_id": "wpa-8934-wonderland-park-avenue",
+      "address": "8934 Wonderland Park Avenue",
+      "house_name": "Minkus Residence",
+      "architect": "",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "Robert L. Minkus",
+      "original_owner": "Robert L. Minkus",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 19, 20",
+      "latitude": 34.11406063,
+      "longitude": -118.38968214,
+      "parcel_apn": "5564-019-049",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 19, 20",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 15,
+      "house_id": "wpa-8937-wonderland-park-avenue",
+      "address": "8937 Wonderland Park Avenue",
+      "house_name": "Ito House",
+      "architect": "Josef Van Der Kar",
+      "year_min": 1962,
+      "year_max": 1962,
+      "year_text": "1962",
+      "contractor": "Jimmie Uyeda",
+      "original_owner": "James S Ito",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 21",
+      "latitude": 34.11475054,
+      "longitude": -118.38902132,
+      "parcel_apn": "5564-016-041",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 16,
+      "house_id": "wpa-8938-wonderland-park-avenue",
+      "address": "8938 Wonderland Park Avenue",
+      "house_name": "Omerberg House",
+      "architect": "Emery Kanarik",
+      "year_min": 1953,
+      "year_max": 1953,
+      "year_text": "1953",
+      "contractor": "Maynard Omerberg(Owner)",
+      "original_owner": "Mr. & Mrs. Maynard Omerberg",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 22",
+      "latitude": 34.11417912,
+      "longitude": -118.3899109,
+      "parcel_apn": "5564-019-050",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 17,
+      "house_id": "wpa-8941-wonderland-park-avenue",
+      "address": "8941 Wonderland Park Avenue",
+      "house_name": "Zeiger House",
+      "architect": "Robert Kennard",
+      "year_min": 1959,
+      "year_max": 1959,
+      "year_text": "1959",
+      "contractor": "Fred Vanddermeer",
+      "original_owner": "Mr. & Mrs. Irving Zeiger",
+      "original_67": "unknown",
+      "research_architect": "Robert Alexander Kennard and Robert Marks / Kennard",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "Zeiger; Kennard; Marks; shallow pools; stepping stones; project index; date distinction; Kimmelman; 1966 directory; community meetings; 1960; party; date uncertain",
+      "research_summary": "Irving Zeiger’s single-story wood-frame Ranch-style flag-lot house was designed by Robert Alexander Kennard and partner Robert Marks and landscaped by Eckbo in 1958; designated Los Angeles Historic-Cultural Monument 1083 in March 2015. Article describes trellised patios, shallow tiled fountain pools, round aggregate stepping pavers and a swimming pool. Project index lists Irving Zeiger, Los Angeles, job 1849, date 1957, Kennard architect. This is an archival project date and should be kept separate from the 1958 landscape date in Simon and the workbook’s 1959 building date.",
+      "evidence_ids": "EVID-023; EVID-035; CORE-E003; CORE-E007; CORE-E008",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; CORE-17; CORE-10; CORE-12; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 23",
+      "latitude": 34.11535048,
+      "longitude": -118.38978784,
+      "parcel_apn": "5564-015-043",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index date 1959; Simon describes design/landscape in 1958; master index project dated 1957. Date meanings differ.; Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 18,
+      "house_id": "wpa-8942-wonderland-park-avenue",
+      "address": "8942 Wonderland Park Avenue",
+      "house_name": "Eckbo House",
+      "architect": "Josef Van Der Kar",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "Sy Art Construction",
+      "original_owner": "Garrett Eckbo",
+      "original_67": "yes",
+      "research_architect": "Josef van der Kar",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "postwar modernism; studio; half acre; Alcoa; aluminum; trellis; post and beam; fountain; construction chronology; carport; address verified; lot 60; garden plan; unbuilt designs; design phases; 1957 plan; Alcoa chronology; 1956 proposal; 1957 drawings; 1959 construction; solar control; microclimate; screens; pavilion; aluminum fountain; mixed materials; historical condition; preservation; loss of aluminum garden; 1996 visit; Eckbo; master tree plan; 1953",
+      "research_summary": "Josef van der Kar designed Eckbo’s own house, described as a 1953 house in the caption; half-acre lot, about two-thirds level, reached by a 150-foot rising driveway; 1,500-square-foot house and 800-square-foot studio under one sloping roof. Photo caption dates trellis and screens to 1955 and describes the aluminum structures as Alcoa demonstration structures. Simon dates the single-story post-and-beam house designed by Josef Van Der Kar to 1952; the garden became an ALCOA Forecast Garden. She dates an ALCOA commission to 1959 and describes an abstract open-flower fountain and perforated aluminum overhead structures. Treib dates construction of the van der Kar-designed Eckbo house to 1951 and occupancy to 1952. His description gives approximately 1,500 square feet of living space and an 800 square foot studio initially separated by an open carport, later enclosed. The reproduced 24 April 1952 garden plan explicitly labels lot 60, tract 15007,8942 Wonderland Park Avenue, Los Angeles 46, Mr and Mrs Garrett Eckbo. Address and lot were visually verified in the plan title. Treib distinguishes an ambitious April 1952 garden proposal, a more restrained circa 1954 plan, a signed 12 November 1957 plan and the later ALCOA project; he states that no initial scheme appears to have been executed in its entirety. Treib traces ALCOA project correspondence to 16 October 1956, earliest existing drawings to 30 May 1957, and an agreement to 4 March 1959 before construction. The opening photo caption describes the garden in late 1959 shortly after completion. The garden responded to heat gain on east/south house glazing with aluminum sunbreaks, privacy screens, a freestanding pavilion and an abstract flower-form fountain. Expanded metal created filtered light and varying transparency; wood remained in structural supports and benches. Treib describes renovation consultations in 1987 and 1989 and reports that almost nothing of the original Forecast Garden’s aluminum ensemble remained on his 1996 visit; concrete aggregate paths with ceramic insets and wooden pavilion posts survived. He characterizes the original Forecast Garden as having effectively disappeared before 1988.",
+      "evidence_ids": "EVID-008; EVID-011; EVID-017; EVID-044; EVID-045; EVID-046; EVID-047; EVID-048; EVID-051; CORE-E001",
+      "source_ids": "SRC-WORKBOOK; SRC-105; SRC-106; SRC-107; CORE-17; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 24",
+      "latitude": 34.11389632,
+      "longitude": -118.39010184,
+      "parcel_apn": "5564-019-055",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "SRC-106 p 6 says built 1952; do not silently collapse the dates; Eden p 6 places ALCOA commission in 1959; treat as conflicting chronology requiring verification; SRC-105 pp 5–6 dates house 1953 and aluminum structures 1955; retain disagreement; Index date 1951; sources describe construction in 1951, occupancy in 1952 and a caption dated 1953. Distinguish events, not a single verified completion year.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 19,
+      "house_id": "wpa-8945-wonderland-park-avenue",
+      "address": "8945 Wonderland Park Avenue",
+      "house_name": "Kaplan Residence",
+      "architect": "",
+      "year_min": 1954,
+      "year_max": 1954,
+      "year_text": "1954",
+      "contractor": "Finn & Fram",
+      "original_owner": "David H. Kaplan",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 25",
+      "latitude": 34.11462356,
+      "longitude": -118.3896268,
+      "parcel_apn": "5564-015-026",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 20,
+      "house_id": "wpa-8952-wonderland-park-avenue",
+      "address": "8952 Wonderland Park Avenue",
+      "house_name": "Moss Residence",
+      "architect": "",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Bernard B. Moss (Owner)",
+      "original_owner": "Bernard B. Moss",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 26",
+      "latitude": 34.11448818,
+      "longitude": -118.39036079,
+      "parcel_apn": "5564-019-052",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 21,
+      "house_id": "wpa-8953-wonderland-park-avenue",
+      "address": "8953 Wonderland Park Avenue",
+      "house_name": "Carroll Residence",
+      "architect": "George Carroll",
+      "year_min": 1981,
+      "year_max": 1981,
+      "year_text": "1981",
+      "contractor": "Rocco Construction",
+      "original_owner": "George Carroll",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 27",
+      "latitude": 34.114747,
+      "longitude": -118.38981445,
+      "parcel_apn": "5564-015-027",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 22,
+      "house_id": "wpa-8955-wonderland-park-avenue",
+      "address": "8955 Wonderland Park Avenue",
+      "house_name": "MacKay Residence",
+      "architect": "",
+      "year_min": 1953,
+      "year_max": 1953,
+      "year_text": "1953",
+      "contractor": "Robert W. MacKay",
+      "original_owner": "Robert W. MacKay",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 28",
+      "latitude": 34.11488587,
+      "longitude": -118.38999017,
+      "parcel_apn": "5564-015-028",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 23,
+      "house_id": "wpa-8956-wonderland-park-avenue",
+      "address": "8956 Wonderland Park Avenue",
+      "house_name": "Ashworth Residence",
+      "architect": "Robert Thorguson",
+      "year_min": 1953,
+      "year_max": 1953,
+      "year_text": "1953",
+      "contractor": "H. V. Lambert",
+      "original_owner": "Mr. & Mrs. Jay Ashworth",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 29",
+      "latitude": 34.114194,
+      "longitude": -118.39062756,
+      "parcel_apn": "5564-019-053",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 24,
+      "house_id": "wpa-8960-wonderland-park-avenue",
+      "address": "8960 Wonderland Park Avenue",
+      "house_name": "Turley Residence",
+      "architect": "William M Bray",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "Robert E. Kumley",
+      "original_owner": "David Turley",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 30",
+      "latitude": 34.11468304,
+      "longitude": -118.39057657,
+      "parcel_apn": "5564-024-013",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 25,
+      "house_id": "wpa-8961-wonderland-park-avenue",
+      "address": "8961 Wonderland Park Avenue",
+      "house_name": "Karney Resdience",
+      "architect": "Lucille B. Raport",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "Contempo Inc.",
+      "original_owner": "Louis & Pauline Karney",
+      "original_67": "yes",
+      "research_architect": "Lucile Bryant Raport",
+      "landscape_designer": "",
+      "research_topics": "Goldstein; Raport",
+      "research_summary": "Libby Simon’s saved note attributes the Goldstein property at 8961 Wonderland Park Avenue to female architect Lucile Bryant Raport, and points to a Los Angeles Public Library article as additional research.",
+      "evidence_ids": "EVID-030",
+      "source_ids": "SRC-WORKBOOK; SRC-080; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 31",
+      "latitude": 34.11503739,
+      "longitude": -118.39015006,
+      "parcel_apn": "5564-015-029",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index calls house Karney; saved Simon correspondence calls this address Goldstein. Historical name attribution differs.; Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 26,
+      "house_id": "wpa-8964-wonderland-park-avenue",
+      "address": "8964 Wonderland Park Avenue",
+      "house_name": "Jaffe Residence",
+      "architect": "",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Syart Construction",
+      "original_owner": "Sam Jaffe",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 32",
+      "latitude": 34.1144194,
+      "longitude": -118.39101612,
+      "parcel_apn": "5564-024-030",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 27,
+      "house_id": "wpa-8967-wonderland-park-avenue",
+      "address": "8967 Wonderland Park Avenue",
+      "house_name": "Modern Housing Corp. Residence",
+      "architect": "Gregory Ain",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "Willens & Bertelsen Co.",
+      "original_owner": "Modern Housing Corporation",
+      "original_67": "yes",
+      "research_architect": "Gregory Ain",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "Goldin; Diana Hunter; polygon patio; restoration; 1966 directory",
+      "research_summary": "Meyer and Rose Goldin’s house used a Gregory Ain plan associated with Community Homes; Garrett Eckbo designed the landscape. A preliminary hardscape plan was revised February 19,1952. The article describes rounded polygon/triangle concrete patio sections, lawn and concrete-block screen/retaining walls, and restoration by granddaughter Diana Hunter.",
+      "evidence_ids": "EVID-016; CORE-E002",
+      "source_ids": "SRC-WORKBOOK; SRC-106; CORE-17; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 33",
+      "latitude": 34.11520029,
+      "longitude": -118.39029287,
+      "parcel_apn": "5564-015-044",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 28,
+      "house_id": "wpa-8970-wonderland-park-avenue",
+      "address": "8970 Wonderland Park Avenue",
+      "house_name": "8970 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "R. A. Keller",
+      "original_owner": "R. A. Keller",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 34",
+      "latitude": 34.11493101,
+      "longitude": -118.39079987,
+      "parcel_apn": "5564-024-014",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 29,
+      "house_id": "wpa-8973-wonderland-park-avenue",
+      "address": "8973 Wonderland Park Avenue",
+      "house_name": "Kimmelman Residence",
+      "architect": "Philip Kimmelman",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "Philip Kimmelman",
+      "original_owner": "Philip Kimmelman",
+      "original_67": "unknown",
+      "research_architect": "Phillip Kimmelman",
+      "landscape_designer": "",
+      "research_topics": "Kimmelman; Zeiger; 1966 directory; architectural review; 1957; pool proposal; Eckbo; 1958",
+      "research_summary": "Endnote 21 identifies Phillip Kimmelman as designer of his own family house in Wonderland Park.",
+      "evidence_ids": "EVID-028; CORE-E003; CORE-E005; CORE-E006",
+      "source_ids": "SRC-WORKBOOK; SRC-106; CORE-17; CORE-06; CORE-10; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 35",
+      "latitude": 34.11537905,
+      "longitude": -118.39041801,
+      "parcel_apn": "5564-015-031",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 30,
+      "house_id": "wpa-8974-wonderland-park-avenue",
+      "address": "8974 Wonderland Park Avenue",
+      "house_name": "8974 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1953,
+      "year_max": 1953,
+      "year_text": "1953",
+      "contractor": "Brunswick & Saunder",
+      "original_owner": "Allan Calkin",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 36",
+      "latitude": 34.11512532,
+      "longitude": -118.39093582,
+      "parcel_apn": "5564-024-015",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 31,
+      "house_id": "wpa-8978-wonderland-park-avenue",
+      "address": "8978 Wonderland Park Avenue",
+      "house_name": "8978 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "Wilgers & Bertisch Co.",
+      "original_owner": "Modern Housing Corporation (George, Ethel Stubbs)",
+      "original_67": "unknown",
+      "research_architect": "Gregory Ain",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "Stubbs; Burroughs Road; trellis; hedges; 1966 directory",
+      "research_summary": "Ethel and George Stubbs’ Gregory Ain house stands at Wonderland Park Avenue and Burroughs Road. Eckbo contracted the landscape in 1951; a caption dates a new trellis to 1953. The article records remaining Pittosporum and Rhus hedges and later replacement of much of the garden by a second driveway and garage/studio.",
+      "evidence_ids": "EVID-018; CORE-E004",
+      "source_ids": "SRC-WORKBOOK; SRC-106; CORE-17; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 37",
+      "latitude": 34.11531596,
+      "longitude": -118.39105327,
+      "parcel_apn": "5564-024-016",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 32,
+      "house_id": "wpa-8979-wonderland-park-avenue",
+      "address": "8979 Wonderland Park Avenue",
+      "house_name": "Baer Residence",
+      "architect": "Leonard Pullan",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "",
+      "original_owner": "Joseph & Flora Baer",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 38",
+      "latitude": 34.115571,
+      "longitude": -118.39053363,
+      "parcel_apn": "5564-015-032",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 33,
+      "house_id": "wpa-9001-wonderland-park-avenue",
+      "address": "9001 Wonderland Park Avenue",
+      "house_name": "Hoffmann Residence",
+      "architect": "Gregory Ain",
+      "year_min": 1951,
+      "year_max": 1953,
+      "year_text": "(1951)1953?",
+      "contractor": "Lionel L. Hoffmann",
+      "original_owner": "Lionel L. Hoffmann",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 39",
+      "latitude": 34.11576505,
+      "longitude": -118.39065439,
+      "parcel_apn": "5564-015-033",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index dates disagree or are uncertain: (1951)1953?",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 34,
+      "house_id": "wpa-9007-wonderland-park-avenue",
+      "address": "9007 Wonderland Park Avenue",
+      "house_name": "Margolin Residence",
+      "architect": "",
+      "year_min": 1955,
+      "year_max": 1955,
+      "year_text": "1955",
+      "contractor": "Finn & Fram",
+      "original_owner": "Jack Margolin",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 40",
+      "latitude": 34.1159602,
+      "longitude": -118.39077605,
+      "parcel_apn": "5564-015-034",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 35,
+      "house_id": "wpa-9008-wonderland-park-avenue",
+      "address": "9008 Wonderland Park Avenue",
+      "house_name": "9008 Wonderland Park Avenue",
+      "architect": "David Hyun",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "R. D. Bloxom",
+      "original_owner": "Joseph Pass",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "Kimmelman; pool proposal; Eckbo; 1958",
+      "research_summary": "",
+      "evidence_ids": "CORE-E006",
+      "source_ids": "SRC-WORKBOOK; CORE-10; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 41",
+      "latitude": 34.11576038,
+      "longitude": -118.3913291,
+      "parcel_apn": "5564-024-018",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 36,
+      "house_id": "wpa-9009-burroughs-road",
+      "address": "9009 Burroughs Road",
+      "house_name": "9009 Burroughs Road",
+      "architect": "Sydney H. Brisker",
+      "year_min": 1955,
+      "year_max": 1955,
+      "year_text": "1955",
+      "contractor": "",
+      "original_owner": "Alex Greenberg",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "1966 directory; CORE; C.O.R.E.; civil rights; 1961; integration; Tent City; Gollin",
+      "research_summary": "",
+      "evidence_ids": "CORE-E004; CORE-E009; CORE-E010; CORE-E011; CORE-E012",
+      "source_ids": "SRC-WORKBOOK; CORE-17; CORE-10; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 42",
+      "latitude": 34.11557702,
+      "longitude": -118.39121718,
+      "parcel_apn": "5564-024-017",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 37,
+      "house_id": "wpa-9013-wonderland-park-avenue",
+      "address": "9013 Wonderland Park Avenue",
+      "house_name": "9013 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1964,
+      "year_max": 1964,
+      "year_text": "1964",
+      "contractor": "Marshall Builders",
+      "original_owner": "William Hong",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 43",
+      "latitude": 34.11615373,
+      "longitude": -118.39089915,
+      "parcel_apn": "5564-015-035",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 38,
+      "house_id": "wpa-9015-burroughs-road",
+      "address": "9015 Burroughs Road",
+      "house_name": "9015 Burroughs Road",
+      "architect": "",
+      "year_min": 1954,
+      "year_max": 1954,
+      "year_text": "1954",
+      "contractor": "Finn & Fram",
+      "original_owner": "Richard Rykoff",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "Rykoff; 1957 revision; step stones; tree rows; 1954–1955; lot 65",
+      "research_summary": "Richard Rykoff’s triangular narrow-lot garden was designed by Eckbo; original planting plan 1955 and revised plan September 11,1957. Article describes Brisbane box at entry, Cape honeysuckle at street slope, Platanus acerifolia row and Eucalyptus torquata beyond the boundary; revised plan called for redwood rounds and Palos Verdes stone step stones. Project index lists Richard Rykoff at Wonderland Park lot 65, job 1218, date 1954–1955, with manuscript 76|692 and drawing FF 588 references. By-sheet listing gives 1954. These project dates should not replace a house construction date.",
+      "evidence_ids": "EVID-022; EVID-039",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 44",
+      "latitude": 34.11536825,
+      "longitude": -118.39162651,
+      "parcel_apn": "5564-024-034",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 39,
+      "house_id": "wpa-9016-burroughs-road",
+      "address": "9016 Burroughs Road",
+      "house_name": "9016 Burroughs Road",
+      "architect": "George J. Fosdyke",
+      "year_min": 1954,
+      "year_max": 1954,
+      "year_text": "1954",
+      "contractor": "J. L Hawkins",
+      "original_owner": "J. L Hawkins",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 45",
+      "latitude": 34.11500372,
+      "longitude": -118.3912942,
+      "parcel_apn": "5564-024-038",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 40,
+      "house_id": "wpa-9016-wonderland-park-avenue",
+      "address": "9016 Wonderland Park Avenue",
+      "house_name": "Gorss Residence",
+      "architect": "Marvin Beck",
+      "year_min": 1956,
+      "year_max": 1956,
+      "year_text": "1956",
+      "contractor": "Building Services inc",
+      "original_owner": "Saul Gorss",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 46",
+      "latitude": 34.1159433,
+      "longitude": -118.39144322,
+      "parcel_apn": "5564-024-019",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 41,
+      "house_id": "wpa-9024-wonderland-park-avenue",
+      "address": "9024 Wonderland Park Avenue",
+      "house_name": "9024 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "E. Benard",
+      "original_owner": "C.C. Pastor",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 47",
+      "latitude": 34.1160335,
+      "longitude": -118.39176622,
+      "parcel_apn": "5564-024-020",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 42,
+      "house_id": "wpa-9029-hollywood-hills-road",
+      "address": "9029 Hollywood Hills Road",
+      "house_name": "Thorguson House (Compound)",
+      "architect": "Robert M. Thorguson",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Owner",
+      "original_owner": "Robert M. Thorguson",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 48",
+      "latitude": 34.11364267,
+      "longitude": -118.39030938,
+      "parcel_apn": "5564-019-068",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 43,
+      "house_id": "wpa-9032-wonderland-park-avenue",
+      "address": "9032 Wonderland Park Avenue",
+      "house_name": "The Kelly House",
+      "architect": "Robert Kennard",
+      "year_min": 1958,
+      "year_max": 1958,
+      "year_text": "1958",
+      "contractor": "",
+      "original_owner": "Berry Kelly",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 49",
+      "latitude": 34.11624016,
+      "longitude": -118.39182455,
+      "parcel_apn": "5564-024-021",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 44,
+      "house_id": "wpa-9035-wonderland-park-avenue",
+      "address": "9035 Wonderland Park Avenue",
+      "house_name": "9035 Wonderland Park Avenue",
+      "architect": "W.D. Bonenberger / W.D Bonenberger",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Owner",
+      "original_owner": "Mr. & Mrs. RV Bonenberger / Mr. and Mrs. R.V. Bonenberger",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 50, 51",
+      "latitude": 34.11659839,
+      "longitude": -118.39117944,
+      "parcel_apn": "5564-015-037",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Duplicate index rows retained: 50, 51",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 45,
+      "house_id": "wpa-9038-wonderland-park-avenue",
+      "address": "9038 Wonderland Park Avenue",
+      "house_name": "Bailey House (Case Study House No. 21)",
+      "architect": "Pierre Koenig",
+      "year_min": 1959,
+      "year_max": 1959,
+      "year_text": "1959",
+      "contractor": "Brian Tarr BTC builders",
+      "original_owner": "Walter and Mary Bailey",
+      "original_67": "yes",
+      "research_architect": "Pierre Koenig",
+      "landscape_designer": "",
+      "research_topics": "Bailey; Case Study House 21",
+      "research_summary": "Endnote 21 identifies Pierre Koenig’s Case Study House 21 for the Bailey family as being on Wonderland Park Avenue.",
+      "evidence_ids": "EVID-027",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 52",
+      "latitude": 34.11654411,
+      "longitude": -118.39174139,
+      "parcel_apn": "5564-024-022",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 46,
+      "house_id": "wpa-9041-wonderland-park-avenue",
+      "address": "9041 Wonderland Park Avenue",
+      "house_name": "9041 Wonderland Park Avenue",
+      "architect": "Howard R Lane",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "Norman Pitt",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 53",
+      "latitude": 34.11678667,
+      "longitude": -118.39127887,
+      "parcel_apn": "5564-015-038",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 47,
+      "house_id": "wpa-9043-burroughs-road",
+      "address": "9043 Burroughs Road",
+      "house_name": "Ellsworth Residence",
+      "architect": "",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Sy Art Construction",
+      "original_owner": "Mr. & Mrs. Ted Ellsworth",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "Garrett Eckbo",
+      "research_topics": "Ellsworth; Burroughs Road; pavers",
+      "research_summary": "Ted and Jeanne Ellsworth’s house is on Burroughs Road; Garrett Eckbo landscaped the property with staggered rectangular entrance pavers. They hosted the Eckbos’ moving-away party in 1965.",
+      "evidence_ids": "EVID-024",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 54",
+      "latitude": 34.11410916,
+      "longitude": -118.39181719,
+      "parcel_apn": "5564-024-028",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 48,
+      "house_id": "wpa-9048-wonderland-park-avenue",
+      "address": "9048 Wonderland Park Avenue",
+      "house_name": "9048 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1959,
+      "year_max": 1959,
+      "year_text": "1959",
+      "contractor": "Pyramid Construction Co.",
+      "original_owner": "Norman and Pat Gollin",
+      "original_67": "unknown",
+      "research_architect": "Norm and Pat Gollin (owners/designers)",
+      "landscape_designer": "Not commissioned for individual garden; Eckbo master tree plan reported",
+      "research_topics": "Gollin; eucalyptus; master tree plan; project index; 1966 directory; CORE; C.O.R.E.; Tent City; civil rights",
+      "research_summary": "Norm and Pat Gollin designed their own family house. Their daughter Lisa recalls Eckbo master-plan eucalyptus along the perimeter, driveway and hillside, although her parents did not commission Eckbo for their individual garden. Project index lists Norman Gollin, Los Angeles, job 1675, date 1957; architect field blank. The index date does not establish a house completion date or prove an executed individual landscape.",
+      "evidence_ids": "EVID-026; EVID-036; CORE-E004; CORE-E012",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; CORE-17; CORE-10; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 55",
+      "latitude": 34.11657936,
+      "longitude": -118.39200918,
+      "parcel_apn": "5564-024-023",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 49,
+      "house_id": "wpa-9049-wonderland-park-avenue",
+      "address": "9049 Wonderland Park Avenue",
+      "house_name": "9049 Wonderland Park Avenue",
+      "architect": "Garrett Eckbo",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "Syart Construction Co",
+      "original_owner": "Paul Jaffee",
+      "original_67": "unknown",
+      "research_architect": "Tom Ballinger / Ballinger",
+      "landscape_designer": "",
+      "research_topics": "Jaffee; lot 21; identity distinction",
+      "research_summary": "Endnote 21 names Tom Ballinger as architect of Ruth and Paul Jaffee’s home. Project index lists Paul Jaffee at Wonderland Park lot 21, job 821, date 1950, Ballinger architect. Sam Jaffe at lot 61 and a Paul Jaffee Malibu project are separate entries.",
+      "evidence_ids": "EVID-029; EVID-038",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 56",
+      "latitude": 34.11697436,
+      "longitude": -118.39141395,
+      "parcel_apn": "5564-015-039",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 50,
+      "house_id": "wpa-9080-wonderland-park-avenue",
+      "address": "9080 Wonderland Park Avenue",
+      "house_name": "9080 Wonderland Park Avenue",
+      "architect": "David Crompton",
+      "year_min": 1961,
+      "year_max": 1961,
+      "year_text": "1961",
+      "contractor": "Owner (Helen Adelstein)",
+      "original_owner": "Helen Adelseun/ Syxmour Edelstren",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 57",
+      "latitude": 34.11774361,
+      "longitude": -118.39211187,
+      "parcel_apn": "5564-029-025",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 51,
+      "house_id": "wpa-8929-wonderland-park-avenue",
+      "address": "8929 Wonderland Park Avenue",
+      "house_name": "Mann Residence",
+      "architect": "Ralph Carlin",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "Triumph Construction",
+      "original_owner": "Ed & Zona Mann",
+      "original_67": "yes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "1966 directory",
+      "research_summary": "",
+      "evidence_ids": "CORE-E004",
+      "source_ids": "SRC-WORKBOOK; CORE-17; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 58",
+      "latitude": 34.11438361,
+      "longitude": -118.38911422,
+      "parcel_apn": "5564-016-036",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Original address is h; 8929 address supplied by 1966 resident directory, not original index",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 52,
+      "house_id": "wpa-8967-1-2-wonderland-park-avenue",
+      "address": "8967 1/2 Wonderland Park Avenue",
+      "house_name": "8967 1/2 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK",
+      "source_rows": "Sheet1 rows 60",
+      "latitude": null,
+      "longitude": null,
+      "parcel_apn": "",
+      "location_status": "not located",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 53,
+      "house_id": "wpa-8948-wonderland-park-avenue",
+      "address": "8948 Wonderland Park Avenue",
+      "house_name": "8948 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 61",
+      "latitude": 34.11434006,
+      "longitude": -118.39016492,
+      "parcel_apn": "5564-019-051",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 54,
+      "house_id": "wpa-9025-wonderland-park-avenue",
+      "address": "9025 Wonderland Park Avenue",
+      "house_name": "9025 Wonderland Park Avenue",
+      "architect": "Vincent Conesto",
+      "year_min": 1954,
+      "year_max": 1954,
+      "year_text": "1954",
+      "contractor": "Charles K. Heimler",
+      "original_owner": "M. Chester",
+      "original_67": "uncertain",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 62",
+      "latitude": 34.11638102,
+      "longitude": -118.39103834,
+      "parcel_apn": "5564-015-036",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 55,
+      "house_id": "wpa-9052-wonderland-park-avenue",
+      "address": "9052 Wonderland Park Avenue",
+      "house_name": "9052 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1951,
+      "year_max": 1951,
+      "year_text": "1951",
+      "contractor": "",
+      "original_owner": "Modern Housing Corporation",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 63",
+      "latitude": 34.11692603,
+      "longitude": -118.39197387,
+      "parcel_apn": "5564-029-022",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 56,
+      "house_id": "wpa-9060-wonderland-park-avenue",
+      "address": "9060 Wonderland Park Avenue",
+      "house_name": "9060 Wonderland Park Avenue",
+      "architect": "Richard Hunter",
+      "year_min": 1957,
+      "year_max": 1957,
+      "year_text": "1957",
+      "contractor": "",
+      "original_owner": "Richard Hunter",
+      "original_67": "unknown",
+      "research_architect": "Richard J. Hunter / Richard Hunter",
+      "landscape_designer": "",
+      "research_topics": "Hunter; Mulholland Tennis Club; project index; 1966 directory",
+      "research_summary": "Architect Richard J. Hunter designed his family’s house on Wonderland Park Avenue and designed Mulholland Tennis Club with Eckbo as landscape architect. Project index lists Richard Hunter, Los Angeles, job 1817, date 1957, Hunter architect.",
+      "evidence_ids": "EVID-025; EVID-037; CORE-E004",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; CORE-17; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 64",
+      "latitude": 34.11716435,
+      "longitude": -118.39201628,
+      "parcel_apn": "5564-029-027",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 57,
+      "house_id": "wpa-9061-wonderland-park-avenue",
+      "address": "9061 Wonderland Park Avenue",
+      "house_name": "Newman Residence",
+      "architect": "Serge Koshin & Benno Fisher (Designer)",
+      "year_min": 1954,
+      "year_max": 1954,
+      "year_text": "1954",
+      "contractor": "Sid Newman",
+      "original_owner": "Sid Newman",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 65",
+      "latitude": 34.11735401,
+      "longitude": -118.39147388,
+      "parcel_apn": "5564-029-016",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 58,
+      "house_id": "wpa-9072-wonderland-park-avenue",
+      "address": "9072 Wonderland Park Avenue",
+      "house_name": "9072 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "Kabakoff + Co",
+      "original_owner": "Col Samuel Levin",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 67",
+      "latitude": 34.11742735,
+      "longitude": -118.39207685,
+      "parcel_apn": "5564-029-024",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 59,
+      "house_id": "wpa-9081-wonderland-park-avenue",
+      "address": "9081 Wonderland Park Avenue",
+      "house_name": "9081 Wonderland Park Avenue",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 68",
+      "latitude": 34.11784861,
+      "longitude": -118.39164061,
+      "parcel_apn": "5564-029-018",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 60,
+      "house_id": "wpa-9091-wonderland-park-avenue",
+      "address": "9091 Wonderland Park Avenue",
+      "house_name": "9091 Wonderland Park Avenue",
+      "architect": "Fuss Residence",
+      "year_min": 1952,
+      "year_max": 1952,
+      "year_text": "1952",
+      "contractor": "SyArt Construction",
+      "original_owner": "Oscar & Audrey Fuss",
+      "original_67": "unknown",
+      "research_architect": "Leland Lewis Evison / Evison",
+      "landscape_designer": "Eckbo, Royston & Williams",
+      "research_topics": "Fuss; cactus garden; planting plan; lot 26",
+      "research_summary": "Oscar and Audrey Fuss’ house at the upper end of Wonderland Park Avenue was designed by Leland Lewis Evison. Eckbo Royston & Williams’ planting plan is dated November 21,1950; a caption says the garden was built in 1951. The front cactus garden is described as a later change, with a 1983 photo. Project index lists Oscar Fuss at Wonderland Park lot 26, job 1038, dates 1950 and 1978, Evison architect.",
+      "evidence_ids": "EVID-021; EVID-040",
+      "source_ids": "SRC-WORKBOOK; SRC-106; SRC-092; SRC-PARCELS",
+      "source_rows": "Sheet1 rows 69",
+      "latitude": 34.1183109,
+      "longitude": -118.39196779,
+      "parcel_apn": "5564-029-021",
+      "location_status": "exact parcel situs-address match; parcel centroid, not building footprint",
+      "record_issues": "Index architect and research attribution differ; original index text retained.",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 61,
+      "house_id": "wpa-8941-robinhood-lane",
+      "address": "8941 Robinhood Lane",
+      "house_name": "8941 Robinhood Lane",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK",
+      "source_rows": "Sheet1 rows 70",
+      "latitude": null,
+      "longitude": null,
+      "parcel_apn": "",
+      "location_status": "not located",
+      "record_issues": "",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 62,
+      "house_id": "wpa-unresolved-row-71",
+      "address": "2 houses both have 9091 WPA addresses in the cul de sac????",
+      "house_name": "Unresolved index record",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK",
+      "source_rows": "Sheet1 rows 71",
+      "latitude": null,
+      "longitude": null,
+      "parcel_apn": "",
+      "location_status": "not located",
+      "record_issues": "Address is incomplete or ambiguous; map location withheld",
+      "research_review_date": "2026-10-23"
+    },
+    {
+      "objectid": 63,
+      "house_id": "wpa-unresolved-row-72",
+      "address": "8945 / number of house?? / 8955 WPA",
+      "house_name": "Unresolved index record",
+      "architect": "",
+      "year_min": null,
+      "year_max": null,
+      "year_text": "",
+      "contractor": "",
+      "original_owner": "",
+      "original_67": "unknown",
+      "research_architect": "",
+      "landscape_designer": "",
+      "research_topics": "",
+      "research_summary": "",
+      "evidence_ids": "",
+      "source_ids": "SRC-WORKBOOK",
+      "source_rows": "Sheet1 rows 72",
+      "latitude": null,
+      "longitude": null,
+      "parcel_apn": "",
+      "location_status": "not located",
+      "record_issues": "Address is incomplete or ambiguous; map location withheld",
+      "research_review_date": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVID-001",
+      "house_ids": [],
+      "claim": "Robert Riley reviews Eckbo’s 1950 book as an integration of design professions with science, including climatology, geology and hydrology; describes design as a tool for democracy and healthy environments.",
+      "source_id": "SRC-001",
+      "pages": [],
+      "topics": [
+        "design integration",
+        "science",
+        "democracy"
+      ],
+      "scope": "general_theory",
+      "subject": "Landscape for Living review",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-002",
+      "house_ids": [],
+      "claim": "Riley considers the book’s vocabulary of materials, earth/rock/water, plants, structural elements and space/people useful for design analysis, while criticizing its universalism and limited attention to history and cultural difference.",
+      "source_id": "SRC-001",
+      "pages": [],
+      "topics": [
+        "design vocabulary",
+        "materials",
+        "historical critique"
+      ],
+      "scope": "general_theory",
+      "subject": "Landscape for Living review",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-003",
+      "house_ids": [],
+      "claim": "Eckbo treats architecture and landscape as interdependent parts of a continuous environment. Landscape quality depends on the relationships among structures, open space and earth, rock, water and plants.",
+      "source_id": "SRC-002",
+      "pages": [
+        3
+      ],
+      "topics": [
+        "solid and void",
+        "indoor outdoor",
+        "interdependence"
+      ],
+      "scope": "general_theory",
+      "subject": "Architecture and the Landscape",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-004",
+      "house_ids": [],
+      "claim": "Landscape design continues after construction through growth, change, maintenance and later adjustments.",
+      "source_id": "SRC-002",
+      "pages": [
+        3
+      ],
+      "topics": [
+        "maintenance",
+        "temporal change"
+      ],
+      "scope": "general_theory",
+      "subject": "Architecture and the Landscape",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-005",
+      "house_ids": [],
+      "claim": "Visual and physical circulation connect buildings, sites and neighborhoods. Floor level, wall openings and topography shape indoor/outdoor relations; buildings also create distinct microclimates affecting planting.",
+      "source_id": "SRC-002",
+      "pages": [
+        4
+      ],
+      "topics": [
+        "circulation",
+        "microclimate",
+        "topography",
+        "indoor outdoor"
+      ],
+      "scope": "general_theory",
+      "subject": "Architecture and the Landscape",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-006",
+      "house_ids": [],
+      "claim": "Eckbo describes Wonderland Park as a three-block section at the upper end of Wonderland Park Avenue. Clem Roark located a subdivided but undeveloped 67-lot tract after Community Homes Cooperative failed.",
+      "source_id": "SRC-105",
+      "pages": [
+        5
+      ],
+      "topics": [
+        "67 lots",
+        "cooperative housing",
+        "Community Homes"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-007",
+      "house_ids": [],
+      "claim": "Development in 1951 cleared vegetation and terraced the land by cut and fill. Eckbo notes compacted fill conflicted with garden cultivation, and that fitting houses and roads into the existing hillside had been considered.",
+      "source_id": "SRC-105",
+      "pages": [
+        5
+      ],
+      "topics": [
+        "1951",
+        "terracing",
+        "soil",
+        "grading"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-008",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Josef van der Kar designed Eckbo’s own house, described as a 1953 house in the caption; half-acre lot, about two-thirds level, reached by a 150-foot rising driveway; 1,500-square-foot house and 800-square-foot studio under one sloping roof.",
+      "source_id": "SRC-105",
+      "pages": [
+        5,
+        6
+      ],
+      "topics": [
+        "postwar modernism",
+        "studio",
+        "half acre"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "Josef van der Kar",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "SRC-106 p 6 says built 1952; do not silently collapse the dates",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-009",
+      "house_ids": [],
+      "claim": "Eckbo prepared landscape plans for about half of the 67 lots and a master tree plan for the entire valley. Taller upright trees in the lower third, intermediate forms in the middle, lower spreading trees in the upper third were intended to minimize the valley’s apparent steepness.",
+      "source_id": "SRC-105",
+      "pages": [
+        6
+      ],
+      "topics": [
+        "67 lots",
+        "tree canopy",
+        "elevation zones",
+        "shared landscape"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park master tree plan",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-010",
+      "house_ids": [],
+      "claim": "Proposals for a neighborhood swimming pool and later sidewalks were abandoned after neighbor objections; Eckbo uses these events to criticize narrow subdivision planning and property-focused decision making.",
+      "source_id": "SRC-105",
+      "pages": [
+        6
+      ],
+      "topics": [
+        "pool proposal",
+        "sidewalks",
+        "cooperative planning"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park cooperative projects",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-011",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Photo caption dates trellis and screens to 1955 and describes the aluminum structures as Alcoa demonstration structures.",
+      "source_id": "SRC-105",
+      "pages": [
+        6
+      ],
+      "topics": [
+        "Alcoa",
+        "aluminum",
+        "trellis"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "Eden p 6 places ALCOA commission in 1959; treat as conflicting chronology requiring verification",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-012",
+      "house_ids": [],
+      "claim": "Libby Simon describes Wonderland Park as a successor community to the failed racially integrated Community Homes plan in Reseda; Modern Housing Association investors developed 67 preterraced building pads with Wonderland Park Avenue as the central spine.",
+      "source_id": "SRC-106",
+      "pages": [
+        4,
+        5
+      ],
+      "topics": [
+        "cooperative housing",
+        "integration",
+        "67 lots"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-013",
+      "house_ids": [],
+      "claim": "Two organizing principles were a continuous park-like street setting and private individual rear gardens. Tree groves cross property boundaries; planting forms were coordinated by elevation.",
+      "source_id": "SRC-106",
+      "pages": [
+        5
+      ],
+      "topics": [
+        "street continuity",
+        "private gardens",
+        "tree groves"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park master landscape",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-014",
+      "house_ids": [],
+      "claim": "The article links early heavy-rain erosion on empty lots with collective runoff diversion and groundcovers chosen by slope sun exposure. It lists rockrose, Senecio, Acacia verticillata, sumac, Pittosporum and Ceanothus among suggested slope plants.",
+      "source_id": "SRC-106",
+      "pages": [
+        5
+      ],
+      "topics": [
+        "erosion",
+        "drainage",
+        "slope stabilization",
+        "groundcover"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park erosion planting",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Historical plant prescriptions; not current planting or hazard advice",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-015",
+      "house_ids": [],
+      "claim": "The review board included Garrett Eckbo, Robert Minkus, Clemons Roark, Jeanne Ellsworth and Raymond Hutton. Guidelines required contemporary single-family residences and a 15-foot setback, with plan approval before building.",
+      "source_id": "SRC-106",
+      "pages": [
+        6
+      ],
+      "topics": [
+        "covenants",
+        "architectural review",
+        "15 foot setback"
+      ],
+      "scope": "neighborhood",
+      "subject": "Architectural Review Board",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Historical guidelines, not verified current zoning",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-016",
+      "house_ids": [
+        "wpa-8967-wonderland-park-avenue"
+      ],
+      "claim": "Meyer and Rose Goldin’s house used a Gregory Ain plan associated with Community Homes; Garrett Eckbo designed the landscape. A preliminary hardscape plan was revised February 19,1952. The article describes rounded polygon/triangle concrete patio sections, lawn and concrete-block screen/retaining walls, and restoration by granddaughter Diana Hunter.",
+      "source_id": "SRC-106",
+      "pages": [
+        6,
+        7,
+        11
+      ],
+      "topics": [
+        "Goldin",
+        "Diana Hunter",
+        "polygon patio",
+        "restoration"
+      ],
+      "scope": "property",
+      "subject": "Goldin residence",
+      "research_architect": "Gregory Ain",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "Goldin and Goldstein are distinct names; no address supplied in this source",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-017",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Simon dates the single-story post-and-beam house designed by Josef Van Der Kar to 1952; the garden became an ALCOA Forecast Garden. She dates an ALCOA commission to 1959 and describes an abstract open-flower fountain and perforated aluminum overhead structures.",
+      "source_id": "SRC-106",
+      "pages": [
+        6
+      ],
+      "topics": [
+        "Alcoa",
+        "post and beam",
+        "fountain",
+        "aluminum"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "Josef van der Kar",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "SRC-105 pp 5–6 dates house 1953 and aluminum structures 1955; retain disagreement",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-018",
+      "house_ids": [
+        "wpa-8978-wonderland-park-avenue"
+      ],
+      "claim": "Ethel and George Stubbs’ Gregory Ain house stands at Wonderland Park Avenue and Burroughs Road. Eckbo contracted the landscape in 1951; a caption dates a new trellis to 1953. The article records remaining Pittosporum and Rhus hedges and later replacement of much of the garden by a second driveway and garage/studio.",
+      "source_id": "SRC-106",
+      "pages": [
+        7,
+        8
+      ],
+      "topics": [
+        "Stubbs",
+        "Burroughs Road",
+        "trellis",
+        "hedges"
+      ],
+      "scope": "property",
+      "subject": "Stubbs residence",
+      "research_architect": "Gregory Ain",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-019",
+      "house_ids": [],
+      "claim": "Victor Kaplan used architect Howard R. Lane for his house.",
+      "source_id": "SRC-106",
+      "pages": [
+        8
+      ],
+      "topics": [
+        "Kaplan"
+      ],
+      "scope": "unlocated_property",
+      "subject": "Kaplan residence",
+      "research_architect": "Howard R. Lane",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-020",
+      "house_ids": [],
+      "claim": "Charles and Harriet Kennedy purchased a property from Seymour Mandel and had Buff & Hensman build their home on a flag lot, with Eckbo as landscape architect.",
+      "source_id": "SRC-106",
+      "pages": [
+        8,
+        11
+      ],
+      "topics": [
+        "Kennedy",
+        "Mandel",
+        "flag lot"
+      ],
+      "scope": "unlocated_property",
+      "subject": "Kennedy residence",
+      "research_architect": "Conrad Buff and Donald Hensman",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-021",
+      "house_ids": [
+        "wpa-9091-wonderland-park-avenue"
+      ],
+      "claim": "Oscar and Audrey Fuss’ house at the upper end of Wonderland Park Avenue was designed by Leland Lewis Evison. Eckbo Royston & Williams’ planting plan is dated November 21,1950; a caption says the garden was built in 1951. The front cactus garden is described as a later change, with a 1983 photo.",
+      "source_id": "SRC-106",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "Fuss",
+        "cactus garden",
+        "planting plan"
+      ],
+      "scope": "property",
+      "subject": "Fuss residence",
+      "research_architect": "Leland Lewis Evison",
+      "landscape_designer": "Eckbo, Royston & Williams",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-022",
+      "house_ids": [
+        "wpa-9015-burroughs-road"
+      ],
+      "claim": "Richard Rykoff’s triangular narrow-lot garden was designed by Eckbo; original planting plan 1955 and revised plan September 11,1957. Article describes Brisbane box at entry, Cape honeysuckle at street slope, Platanus acerifolia row and Eucalyptus torquata beyond the boundary; revised plan called for redwood rounds and Palos Verdes stone step stones.",
+      "source_id": "SRC-106",
+      "pages": [
+        8,
+        10
+      ],
+      "topics": [
+        "Rykoff",
+        "1957 revision",
+        "step stones",
+        "tree rows"
+      ],
+      "scope": "property",
+      "subject": "Rykoff residence",
+      "research_architect": "",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-023",
+      "house_ids": [
+        "wpa-8941-wonderland-park-avenue"
+      ],
+      "claim": "Irving Zeiger’s single-story wood-frame Ranch-style flag-lot house was designed by Robert Alexander Kennard and partner Robert Marks and landscaped by Eckbo in 1958; designated Los Angeles Historic-Cultural Monument 1083 in March 2015. Article describes trellised patios, shallow tiled fountain pools, round aggregate stepping pavers and a swimming pool.",
+      "source_id": "SRC-106",
+      "pages": [
+        10,
+        11
+      ],
+      "topics": [
+        "Zeiger",
+        "Kennard",
+        "Marks",
+        "shallow pools",
+        "stepping stones"
+      ],
+      "scope": "property",
+      "subject": "Zeiger residence",
+      "research_architect": "Robert Alexander Kennard and Robert Marks",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-024",
+      "house_ids": [
+        "wpa-9043-burroughs-road"
+      ],
+      "claim": "Ted and Jeanne Ellsworth’s house is on Burroughs Road; Garrett Eckbo landscaped the property with staggered rectangular entrance pavers. They hosted the Eckbos’ moving-away party in 1965.",
+      "source_id": "SRC-106",
+      "pages": [
+        10
+      ],
+      "topics": [
+        "Ellsworth",
+        "Burroughs Road",
+        "pavers"
+      ],
+      "scope": "property",
+      "subject": "Ellsworth residence",
+      "research_architect": "",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-025",
+      "house_ids": [
+        "wpa-9060-wonderland-park-avenue"
+      ],
+      "claim": "Architect Richard J. Hunter designed his family’s house on Wonderland Park Avenue and designed Mulholland Tennis Club with Eckbo as landscape architect.",
+      "source_id": "SRC-106",
+      "pages": [
+        10,
+        11
+      ],
+      "topics": [
+        "Hunter",
+        "Mulholland Tennis Club"
+      ],
+      "scope": "property",
+      "subject": "Hunter residence",
+      "research_architect": "Richard J. Hunter",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Do not infer that Eckbo landscaped the Hunter house from his Tennis Club role",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-026",
+      "house_ids": [
+        "wpa-9048-wonderland-park-avenue"
+      ],
+      "claim": "Norm and Pat Gollin designed their own family house. Their daughter Lisa recalls Eckbo master-plan eucalyptus along the perimeter, driveway and hillside, although her parents did not commission Eckbo for their individual garden.",
+      "source_id": "SRC-106",
+      "pages": [
+        10
+      ],
+      "topics": [
+        "Gollin",
+        "eucalyptus",
+        "master tree plan"
+      ],
+      "scope": "property",
+      "subject": "Gollin residence",
+      "research_architect": "Norm and Pat Gollin (owners/designers)",
+      "landscape_designer": "Not commissioned for individual garden; Eckbo master tree plan reported",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-027",
+      "house_ids": [
+        "wpa-9038-wonderland-park-avenue"
+      ],
+      "claim": "Endnote 21 identifies Pierre Koenig’s Case Study House 21 for the Bailey family as being on Wonderland Park Avenue.",
+      "source_id": "SRC-106",
+      "pages": [
+        11
+      ],
+      "topics": [
+        "Bailey",
+        "Case Study House 21"
+      ],
+      "scope": "property",
+      "subject": "Bailey residence",
+      "research_architect": "Pierre Koenig",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-028",
+      "house_ids": [
+        "wpa-8973-wonderland-park-avenue"
+      ],
+      "claim": "Endnote 21 identifies Phillip Kimmelman as designer of his own family house in Wonderland Park.",
+      "source_id": "SRC-106",
+      "pages": [
+        11
+      ],
+      "topics": [
+        "Kimmelman"
+      ],
+      "scope": "property",
+      "subject": "Kimmelman residence",
+      "research_architect": "Phillip Kimmelman",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-029",
+      "house_ids": [
+        "wpa-9049-wonderland-park-avenue"
+      ],
+      "claim": "Endnote 21 names Tom Ballinger as architect of Ruth and Paul Jaffee’s home.",
+      "source_id": "SRC-106",
+      "pages": [
+        11
+      ],
+      "topics": [
+        "Jaffee"
+      ],
+      "scope": "property",
+      "subject": "Jaffee residence",
+      "research_architect": "Tom Ballinger",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-030",
+      "house_ids": [
+        "wpa-8961-wonderland-park-avenue"
+      ],
+      "claim": "Libby Simon’s saved note attributes the Goldstein property at 8961 Wonderland Park Avenue to female architect Lucile Bryant Raport, and points to a Los Angeles Public Library article as additional research.",
+      "source_id": "SRC-080",
+      "pages": [],
+      "topics": [
+        "Goldstein",
+        "Raport"
+      ],
+      "scope": "property",
+      "subject": "Goldstein residence",
+      "research_architect": "Lucile Bryant Raport",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Address and attribution explicitly present; year not supplied. Spelling Lucille also occurs elsewhere.",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-031",
+      "house_ids": [],
+      "claim": "Transcription lists historical bank plants for south/east-facing Wonderland Park slopes, with plant combinations, groundcovers and raw-area seeding. Lot identifiers are supplied, but their modern address correspondence is unverified.",
+      "source_id": "SRC-062",
+      "pages": [],
+      "topics": [
+        "bank plants",
+        "south east slopes",
+        "lot numbers",
+        "historical planting"
+      ],
+      "scope": "neighborhood",
+      "subject": "Suggested bank plants",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Do not interpret as observed existing vegetation or modern planting advice",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-032",
+      "house_ids": [],
+      "claim": "Compiled tree/plant spreadsheet identifies entries associated with a 1952 full tree plan, including deodar cedar, carob, Italian cypress, lemon-scented gum, red ironbark, Liquidambar, Magnolia grandiflora, olive, tipu tree and palms; other rows cite California Dreamin or Rykoff.",
+      "source_id": "SRC-066",
+      "pages": [],
+      "topics": [
+        "tree list",
+        "1952 master plan",
+        "plant palette"
+      ],
+      "scope": "neighborhood",
+      "subject": "Tree and plant list",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Historical compilation, with spelling ambiguities; not a current tree inventory",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-034",
+      "house_ids": [],
+      "claim": "The project index distinguishes David C. Kaplan at Wonderland Park lot 50 (Nagel architect, date 1950), David H. Kaplan at lot 8 (date 1954–1956), and Victor Kaplan cross-referenced to Norman Pitt at lot 20. Simon’s Howard R. Lane attribution is specifically for Victor Kaplan; no street address is supplied in the project index.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Kaplan",
+        "identity ambiguity",
+        "lot mapping"
+      ],
+      "scope": "source_disambiguation",
+      "subject": "Kaplan residences",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Do not match a surname-only Kaplan workbook row to an architect without additional identity evidence; index dates describe archival projects, not necessarily construction.",
+      "locator": "Master Index rows 854, 855, 856, 1426",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-035",
+      "house_ids": [
+        "wpa-8941-wonderland-park-avenue"
+      ],
+      "claim": "Project index lists Irving Zeiger, Los Angeles, job 1849, date 1957, Kennard architect. This is an archival project date and should be kept separate from the 1958 landscape date in Simon and the workbook’s 1959 building date.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Zeiger",
+        "project index",
+        "date distinction"
+      ],
+      "scope": "property",
+      "subject": "Zeiger residence",
+      "research_architect": "Kennard",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 2224",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-036",
+      "house_ids": [
+        "wpa-9048-wonderland-park-avenue"
+      ],
+      "claim": "Project index lists Norman Gollin, Los Angeles, job 1675, date 1957; architect field blank. The index date does not establish a house completion date or prove an executed individual landscape.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Gollin",
+        "project index"
+      ],
+      "scope": "property",
+      "subject": "Gollin residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 644",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-037",
+      "house_ids": [
+        "wpa-9060-wonderland-park-avenue"
+      ],
+      "claim": "Project index lists Richard Hunter, Los Angeles, job 1817, date 1957, Hunter architect.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Hunter",
+        "project index"
+      ],
+      "scope": "property",
+      "subject": "Hunter residence",
+      "research_architect": "Richard Hunter",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 793",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-038",
+      "house_ids": [
+        "wpa-9049-wonderland-park-avenue"
+      ],
+      "claim": "Project index lists Paul Jaffee at Wonderland Park lot 21, job 821, date 1950, Ballinger architect. Sam Jaffe at lot 61 and a Paul Jaffee Malibu project are separate entries.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Jaffee",
+        "lot 21",
+        "identity distinction"
+      ],
+      "scope": "property",
+      "subject": "Jaffee residence",
+      "research_architect": "Ballinger",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 828, 829, 830",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-039",
+      "house_ids": [
+        "wpa-9015-burroughs-road"
+      ],
+      "claim": "Project index lists Richard Rykoff at Wonderland Park lot 65, job 1218, date 1954–1955, with manuscript 76|692 and drawing FF 588 references. By-sheet listing gives 1954. These project dates should not replace a house construction date.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Rykoff",
+        "1954–1955",
+        "lot 65"
+      ],
+      "scope": "property",
+      "subject": "Rykoff residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 1552",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-040",
+      "house_ids": [
+        "wpa-9091-wonderland-park-avenue"
+      ],
+      "claim": "Project index lists Oscar Fuss at Wonderland Park lot 26, job 1038, dates 1950 and 1978, Evison architect.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Fuss",
+        "lot 26"
+      ],
+      "scope": "property",
+      "subject": "Fuss residence",
+      "research_architect": "Evison",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "Master Index rows 589",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-041",
+      "house_ids": [],
+      "claim": "Project index identifies Dike Nagano with Wonderland Park lot 24; no year or architect is supplied in that entry.",
+      "source_id": "SRC-092",
+      "pages": [],
+      "topics": [
+        "Nagano",
+        "lot 24"
+      ],
+      "scope": "unlocated_property",
+      "subject": "Nagano residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "No modern street address or construction year is established by this entry.",
+      "locator": "Master Index rows 1290",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-042",
+      "house_ids": [],
+      "claim": "Treib describes a 1952 planting scheme using eucalyptus and liquidambar along Wonderland Park Avenue, with Platanus acerifolia, Magnolia grandiflora and Tipuana tipu in hillside pockets. He cautions that the extent of original implementation is difficult to assess.",
+      "source_id": "SRC-107",
+      "pages": [
+        14
+      ],
+      "topics": [
+        "1952 planting plan",
+        "streetscape",
+        "implementation uncertainty"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland Park master landscape",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-043",
+      "house_ids": [],
+      "claim": "Treib describes a curved retaining wall with elongated bench for Kaplan, polygonal concrete paving and privacy shrubs for Goldin, and terracing, swimming pool, pergola and extended paving for Zeiger. No street addresses are supplied in this passage.",
+      "source_id": "SRC-107",
+      "pages": [
+        14,
+        16
+      ],
+      "topics": [
+        "garden forms",
+        "Kaplan",
+        "Goldin",
+        "Zeiger"
+      ],
+      "scope": "unlocated_property",
+      "subject": "Kaplan, Goldin and Zeiger gardens",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-044",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Treib dates construction of the van der Kar-designed Eckbo house to 1951 and occupancy to 1952. His description gives approximately 1,500 square feet of living space and an 800 square foot studio initially separated by an open carport, later enclosed.",
+      "source_id": "SRC-107",
+      "pages": [
+        16,
+        18
+      ],
+      "topics": [
+        "construction chronology",
+        "studio",
+        "carport"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "Josef van der Kar",
+      "landscape_designer": "Garrett Eckbo",
+      "date_note": "",
+      "qualification": "Eckbo’s 1982 description places house and studio under one roof; descriptions refer to different spatial arrangements or phases and should remain attributed.",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-045",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "The reproduced 24 April 1952 garden plan explicitly labels lot 60, tract 15007,8942 Wonderland Park Avenue, Los Angeles 46, Mr and Mrs Garrett Eckbo. Address and lot were visually verified in the plan title.",
+      "source_id": "SRC-107",
+      "pages": [
+        19
+      ],
+      "topics": [
+        "address verified",
+        "lot 60",
+        "garden plan"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-046",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Treib distinguishes an ambitious April 1952 garden proposal, a more restrained circa 1954 plan, a signed 12 November 1957 plan and the later ALCOA project; he states that no initial scheme appears to have been executed in its entirety.",
+      "source_id": "SRC-107",
+      "pages": [
+        18,
+        20,
+        26
+      ],
+      "topics": [
+        "unbuilt designs",
+        "design phases",
+        "1957 plan"
+      ],
+      "scope": "property",
+      "subject": "Eckbo residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-047",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Treib traces ALCOA project correspondence to 16 October 1956, earliest existing drawings to 30 May 1957, and an agreement to 4 March 1959 before construction. The opening photo caption describes the garden in late 1959 shortly after completion.",
+      "source_id": "SRC-107",
+      "pages": [
+        2,
+        26
+      ],
+      "topics": [
+        "Alcoa chronology",
+        "1956 proposal",
+        "1957 drawings",
+        "1959 construction"
+      ],
+      "scope": "property",
+      "subject": "Eckbo ALCOA Forecast Garden",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "This sequence conflicts with the 1955 aluminum-structure photo caption in SRC-105; preserve the attribution rather than invent a single confirmed year.",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-048",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "The garden responded to heat gain on east/south house glazing with aluminum sunbreaks, privacy screens, a freestanding pavilion and an abstract flower-form fountain. Expanded metal created filtered light and varying transparency; wood remained in structural supports and benches.",
+      "source_id": "SRC-107",
+      "pages": [
+        26,
+        27,
+        28,
+        32
+      ],
+      "topics": [
+        "solar control",
+        "microclimate",
+        "screens",
+        "pavilion",
+        "aluminum fountain",
+        "mixed materials"
+      ],
+      "scope": "property",
+      "subject": "Eckbo ALCOA Forecast Garden",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "EVID-049",
+      "house_ids": [],
+      "claim": "Historical list identifies lots 1–7,23–27,43 C–48 C,59 C,61 C,64 C as west-facing slopes. It specifies Lantana sellowiana as large groundcover with shrubs including Plumbago, Echium, Melaleuca, rosemary and Ceanothus.",
+      "source_id": "SRC-063",
+      "pages": [],
+      "topics": [
+        "west-facing slopes",
+        "bank plants",
+        "lot identifiers"
+      ],
+      "scope": "neighborhood",
+      "subject": "Suggested bank plants, west-facing slopes",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Do not infer current vegetation, modern address mapping or present planting suitability.",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-050",
+      "house_ids": [],
+      "claim": "Undated typed resident notes describe a Margolin house later occupied by Kerby, with plans originally approved in 1955, lost street trees, heat exposure and uncertain original planting/pool chronology. No modern street address is supplied.",
+      "source_id": "SRC-075",
+      "pages": [],
+      "topics": [
+        "Margolin",
+        "Kerby",
+        "landscape change",
+        "uncertain planting"
+      ],
+      "scope": "unlocated_property",
+      "subject": "Margolin / Kerby residence",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "Historical observations and opinions, not verified present condition or an address match.",
+      "locator": "",
+      "link_basis": ""
+    },
+    {
+      "id": "EVID-051",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "Treib describes renovation consultations in 1987 and 1989 and reports that almost nothing of the original Forecast Garden’s aluminum ensemble remained on his 1996 visit; concrete aggregate paths with ceramic insets and wooden pavilion posts survived. He characterizes the original Forecast Garden as having effectively disappeared before 1988.",
+      "source_id": "SRC-107",
+      "pages": [
+        47,
+        48,
+        49
+      ],
+      "topics": [
+        "historical condition",
+        "preservation",
+        "loss of aluminum garden",
+        "1996 visit"
+      ],
+      "scope": "property",
+      "subject": "Eckbo ALCOA Forecast Garden preservation",
+      "research_architect": "",
+      "landscape_designer": "",
+      "date_note": "",
+      "qualification": "These are dated historical observations, not a 2026 condition survey. Do not describe the 1959 ensemble as an intact current garden.",
+      "locator": "",
+      "link_basis": "Named property matched to index and historical resident directory"
+    },
+    {
+      "id": "CORE-E001",
+      "house_ids": [
+        "wpa-8942-wonderland-park-avenue"
+      ],
+      "claim": "The January 1953 bulletin identifies Garrett Eckbo’s studio at 8942 and describes his tentative valley-wide tree and boundary planting plan as a flexible guide. Individual private designs were a separate commission.",
+      "source_id": "CORE-17",
+      "pages": [
+        7
+      ],
+      "topics": [
+        "Eckbo",
+        "master tree plan",
+        "1953"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E002",
+      "house_ids": [
+        "wpa-8967-wonderland-park-avenue"
+      ],
+      "claim": "The resident directory corrected July 27, 1966 identifies Meyer and Rose Goldin at 8967 Wonderland Park Avenue. This supplies the address link for the Goldin garden discussed by Libby Simon.",
+      "source_id": "CORE-17",
+      "pages": [
+        8,
+        9
+      ],
+      "topics": [
+        "Goldin",
+        "1966 directory"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E003",
+      "house_ids": [
+        "wpa-8973-wonderland-park-avenue",
+        "wpa-8941-wonderland-park-avenue"
+      ],
+      "claim": "The 1966 directory identifies Phillip and Anne Kimmelman at 8973 and Irving and Beatrice Zeiger at 8941 Wonderland Park Avenue.",
+      "source_id": "CORE-17",
+      "pages": [
+        8,
+        9
+      ],
+      "topics": [
+        "Kimmelman",
+        "Zeiger",
+        "1966 directory"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E004",
+      "house_ids": [
+        "wpa-8978-wonderland-park-avenue",
+        "wpa-9060-wonderland-park-avenue",
+        "wpa-9048-wonderland-park-avenue",
+        "wpa-8929-wonderland-park-avenue",
+        "wpa-9009-burroughs-road"
+      ],
+      "claim": "The 1966 directory links George and Ethel Stubbs with 8978, Richard and Millie Hunter with 9060, Norman and Pat Gollin with 9048, Ed and Zona Mann with 8929, and Alex Greenberg with 9009 Burroughs Road.",
+      "source_id": "CORE-17",
+      "pages": [
+        8,
+        9
+      ],
+      "topics": [
+        "1966 directory"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E005",
+      "house_ids": [
+        "wpa-8973-wonderland-park-avenue"
+      ],
+      "claim": "Kimmelman’s plans were submitted March 1, 1957, approved April 5, and construction was reported underway November 1, 1957.",
+      "source_id": "CORE-06",
+      "pages": [
+        41,
+        33,
+        17
+      ],
+      "topics": [
+        "Kimmelman",
+        "architectural review",
+        "1957"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E006",
+      "house_ids": [
+        "wpa-8973-wonderland-park-avenue",
+        "wpa-9008-wonderland-park-avenue"
+      ],
+      "claim": "November 7, 1958 minutes record Phil Kimmelman and Joe Pass investigating a community pool site. Kimmelman prepared a layout after meeting MacKay, Pass and Eckbo.",
+      "source_id": "CORE-10",
+      "pages": [
+        62
+      ],
+      "topics": [
+        "Kimmelman",
+        "pool proposal",
+        "Eckbo",
+        "1958"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E007",
+      "house_ids": [
+        "wpa-8941-wonderland-park-avenue"
+      ],
+      "claim": "The September 9, 1960 membership meeting was hosted by Irving and Bea Zeiger. This is documented neighborhood involvement, not evidence of their named participation in C.O.R.E. activities.",
+      "source_id": "CORE-10",
+      "pages": [
+        32
+      ],
+      "topics": [
+        "Zeiger",
+        "community meetings",
+        "1960"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E008",
+      "house_ids": [
+        "wpa-8941-wonderland-park-avenue"
+      ],
+      "claim": "An invitation locates a January 14 “15th Annual Party” at the Zeiger home, 8941. The invitation has no year; the filename’s 1965 is unverified.",
+      "source_id": "CORE-12",
+      "pages": [
+        1
+      ],
+      "topics": [
+        "Zeiger",
+        "party",
+        "date uncertain"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E009",
+      "house_ids": [
+        "wpa-9009-burroughs-road"
+      ],
+      "claim": "March 17, 1961 minutes record a meeting at Alex Greenberg’s home with CORE speakers, a protest telegram and a $27 collection. The sources establish neighborhood cooperation with CORE, not a formal neighborhood CORE chapter.",
+      "source_id": "CORE-10",
+      "pages": [
+        22
+      ],
+      "topics": [
+        "CORE",
+        "C.O.R.E.",
+        "civil rights",
+        "1961"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E010",
+      "house_ids": [
+        "wpa-9009-burroughs-road"
+      ],
+      "claim": "A March 23, 1961 letter from Eloise and Alex Greenberg at 9009 Burroughs Road offers solidarity to Brownsville Tent City and describes support for voting rights and integrated community life.",
+      "source_id": "CORE-10",
+      "pages": [
+        105
+      ],
+      "topics": [
+        "CORE",
+        "C.O.R.E.",
+        "civil rights",
+        "integration",
+        "Tent City"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E011",
+      "house_ids": [
+        "wpa-9009-burroughs-road"
+      ],
+      "claim": "April 24, 1961 board minutes direct a $25 CORE check through Eloise Greenberg. This amount should not be added to other figures as a verified total.",
+      "source_id": "CORE-10",
+      "pages": [
+        21
+      ],
+      "topics": [
+        "CORE",
+        "C.O.R.E.",
+        "1961"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E012",
+      "house_ids": [
+        "wpa-9009-burroughs-road",
+        "wpa-9048-wonderland-park-avenue"
+      ],
+      "claim": "June 2, 1961 minutes record $137 collected plus pledges for Tent City through CORE. Eloise Greenberg organized a clothing collection and Pat Gollin offered to arrange CORE mailing-list enrollment.",
+      "source_id": "CORE-10",
+      "pages": [
+        15,
+        16
+      ],
+      "topics": [
+        "CORE",
+        "C.O.R.E.",
+        "Tent City",
+        "Gollin",
+        "civil rights"
+      ],
+      "scope": "property",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": "Address explicit in resident directory or correspondence"
+    },
+    {
+      "id": "CORE-E013",
+      "house_ids": [],
+      "claim": "Tent City correspondence documents voting retaliation, eviction, lost credit or employment and requests for assistance. Donation figures in separate records are not a verified cumulative total.",
+      "source_id": "CORE-10",
+      "pages": [
+        106,
+        107
+      ],
+      "topics": [
+        "CORE",
+        "C.O.R.E.",
+        "voting rights",
+        "Tent City"
+      ],
+      "scope": "neighborhood",
+      "subject": "Wonderland community archive",
+      "qualification": "Historical archive; does not establish present ownership",
+      "link_basis": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "_Landscape for Living_ by Garrett Eckbo - Harvard Design Magazine.htm",
+      "filename": "_Landscape for Living_ by Garrett Eckbo - Harvard Design Magazine.htm",
+      "status": "extracted",
+      "sha256": "439f02dc0653a8abc3059606d80155ac58757a59eb5f9274b1102cb15a772fd0"
+    },
+    {
+      "id": "SRC-002",
+      "title": "Garrett-Eckbo-Architecture-and-The-Landscape.pdf",
+      "filename": "Garrett-Eckbo-Architecture-and-The-Landscape.pdf",
+      "status": "ocr_extracted",
+      "sha256": "b0935026f1eec1710dbbf5c8d023c7a1e085dfc9b87f4680695f06d11c1f1afa"
+    },
+    {
+      "id": "SRC-003",
+      "title": "0593a801e3ffa3b7ff3622a1623755cb_lRye.js",
+      "filename": "0593a801e3ffa3b7ff3622a1623755cb_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "6afe5dbb87fee6fa62e606c95c46f4365c5edd9e37533814bb8f3dbcab878444"
+    },
+    {
+      "id": "SRC-004",
+      "title": "add-to-cart.min_lRye.js",
+      "filename": "add-to-cart.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "fca8dd4ee9c93f33dc3149e2c78aec8a28c54036faaf19c7b0ac9ca32293c070"
+    },
+    {
+      "id": "SRC-005",
+      "title": "app_lRye.js",
+      "filename": "app_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "95f9b718fc9c8086e214aeda22cfa10dfc9cfa2fe9715ee873a8c79c5d1f0dbb"
+    },
+    {
+      "id": "SRC-006",
+      "title": "article-progress-bar_lRye.js",
+      "filename": "article-progress-bar_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "b3c982568df112281622b589e864529b7f3cf1586263070fba483090c5545fc9"
+    },
+    {
+      "id": "SRC-007",
+      "title": "basic.min_lRye.css",
+      "filename": "basic.min_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "48122532daa02b6f08454e557bfb0b372c02d7cc63f8ac0e9c60eed46bbd22ef"
+    },
+    {
+      "id": "SRC-008",
+      "title": "c4_06Cover_1120pxWide-212x300_lRye.jpg",
+      "filename": "c4_06Cover_1120pxWide-212x300_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "b2fe65863e6efaa4731419190c7a8413e6ff17785f83baa32287ab26a41d53fb"
+    },
+    {
+      "id": "SRC-009",
+      "title": "c4_06Cover_1120pxWide-446x630_lRye.jpg",
+      "filename": "c4_06Cover_1120pxWide-446x630_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "21d6d75e0f3f49e6bfb1653e76cae97415499628abd46a29fcf24881272d60f3"
+    },
+    {
+      "id": "SRC-010",
+      "title": "c4_06Cover_1120pxWide_lRye.jpg",
+      "filename": "c4_06Cover_1120pxWide_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "b0d75925b83eec5042579a3c0e220eade5a08692d65358cccfa69fa6e549aabc"
+    },
+    {
+      "id": "SRC-011",
+      "title": "footer-logo_lRye.svg",
+      "filename": "footer-logo_lRye.svg",
+      "status": "web_support_asset",
+      "sha256": "9d23fa96b7e45144ae043d0ae6e21d31a9ffa730aad8139f181aa273b58394a2"
+    },
+    {
+      "id": "SRC-012",
+      "title": "full_screen_2794h_61_rev-1165x1536_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-1165x1536_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "3bc88bd92bda8dc88ccde93b56485364bfa844ac254e7e2944e8d9f8b50bcdfe"
+    },
+    {
+      "id": "SRC-013",
+      "title": "full_screen_2794h_61_rev-228x300_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-228x300_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "d38fcafd4a2a723f151760c215202f4c780de0bf45704070000d0dd1604a34e5"
+    },
+    {
+      "id": "SRC-014",
+      "title": "full_screen_2794h_61_rev-470x618_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-470x618_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "060324b4b610c64363e615dfaa1d55f8927838b2c1c36db35c43e22d0bede80f"
+    },
+    {
+      "id": "SRC-015",
+      "title": "full_screen_2794h_61_rev-478x630_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-478x630_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "cb7e37c008aeb8ad624cc91981cb8179496f2bdd1211d3e7eabc46c25c46dd9e"
+    },
+    {
+      "id": "SRC-016",
+      "title": "full_screen_2794h_61_rev-768x1012_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-768x1012_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "0fd98c1727cd87bc0eac1188ddea852a2f29650c2d825105429a6c0a51bc7cef"
+    },
+    {
+      "id": "SRC-017",
+      "title": "full_screen_2794h_61_rev-777x1024_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-777x1024_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "99dde1b3d409edc8bc448b4d3fd060e85980bc4e3f0535ab8fd77277a046408a"
+    },
+    {
+      "id": "SRC-018",
+      "title": "full_screen_2794h_61_rev-950x1252_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev-950x1252_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "36fd122ef177951aa6076fccd93515cbb7d81293ca90267416c3d52dd158f807"
+    },
+    {
+      "id": "SRC-019",
+      "title": "full_screen_2794h_61_rev_lRye.jpg",
+      "filename": "full_screen_2794h_61_rev_lRye.jpg",
+      "status": "web_support_asset",
+      "sha256": "4c3a689dd97384db95929aa97dfba9d20a33ed5d98ab2b95e8cc5920fc40fd49"
+    },
+    {
+      "id": "SRC-020",
+      "title": "general-styles_lRye.css",
+      "filename": "general-styles_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "1b67ebf0e85fc15794a6cfa7bf9e096ad40fb9138a340e532917674d102595b6"
+    },
+    {
+      "id": "SRC-021",
+      "title": "globalHighlightStyles_lRye.css",
+      "filename": "globalHighlightStyles_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "8f53cbfeadb82c49639a5b921a40e5b6cf3c307a7c0cd0aa47524ef091707afe"
+    },
+    {
+      "id": "SRC-022",
+      "title": "gravityforms.min_lRye.js",
+      "filename": "gravityforms.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "97384d74a6cda0eb8d8d8d2a56f1b3f9bdfbaefe66ff55e1857b965d65f8353a"
+    },
+    {
+      "id": "SRC-023",
+      "title": "gtm4wp-ecommerce-generic_lRye.js",
+      "filename": "gtm4wp-ecommerce-generic_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "36c35b74f86c787995f14c0fe2bf4102dbcc79a79be0fd4046aff65c0129dab0"
+    },
+    {
+      "id": "SRC-024",
+      "title": "gtm4wp-woocommerce_lRye.js",
+      "filename": "gtm4wp-woocommerce_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "7f6bd9d5c7641bd112f6ebaa26bbd2c46d7ef4b2378b2e1cca29685baa7bcbc0"
+    },
+    {
+      "id": "SRC-025",
+      "title": "gtm_lRye.js",
+      "filename": "gtm_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "db71b334fb15cb3f57174d2fe23f9e58fec8e64b559d67ea26e02f2f625d6d5f"
+    },
+    {
+      "id": "SRC-026",
+      "title": "icon-facebook-white_lRye.webp",
+      "filename": "icon-facebook-white_lRye.webp",
+      "status": "web_support_asset",
+      "sha256": "80cb568f612ee2f3656d056f2abe7cad7c7708169dae9f3090e60821a1f05e7a"
+    },
+    {
+      "id": "SRC-027",
+      "title": "icon-instagram_lRye.webp",
+      "filename": "icon-instagram_lRye.webp",
+      "status": "web_support_asset",
+      "sha256": "34927bd5b2333f90f5756867c8bf1b813e5522994e86c246e741cb081cad6f33"
+    },
+    {
+      "id": "SRC-028",
+      "title": "image-lightbox_lRye.js",
+      "filename": "image-lightbox_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "b09aa75403cfa5150226155688c540a49a2c5039c7c59d09c8413e85719e2d4b"
+    },
+    {
+      "id": "SRC-029",
+      "title": "index.min_002_lRye.js",
+      "filename": "index.min_002_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "3fe927cab37bf38d6a23ad526b5551b0ca4f6cd892c8d64521c76246a5b0c345"
+    },
+    {
+      "id": "SRC-030",
+      "title": "index.min_003_lRye.js",
+      "filename": "index.min_003_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "f0f188028580e8dc12557692b377b31d882960bc590ca72c8249c846930cab18"
+    },
+    {
+      "id": "SRC-031",
+      "title": "index.min_004_lRye.js",
+      "filename": "index.min_004_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "1dfe7db3940c23ea92168d364cf4b8560c2f12435f95c276b64a07cccb40c015"
+    },
+    {
+      "id": "SRC-032",
+      "title": "index.min_lRye.js",
+      "filename": "index.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "31c6cec5a4ff7aff483d01bdc3e5a14b57742f17e8e3c04a85723f9a3cae5186"
+    },
+    {
+      "id": "SRC-033",
+      "title": "jquery-migrate.min_lRye.js",
+      "filename": "jquery-migrate.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89"
+    },
+    {
+      "id": "SRC-034",
+      "title": "jquery.blockUI.min_lRye.js",
+      "filename": "jquery.blockUI.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "d151f8c0b2659cfb63704d68654ad8d9437ae9da4410536f63ddec21689a0620"
+    },
+    {
+      "id": "SRC-035",
+      "title": "jquery.json.min_lRye.js",
+      "filename": "jquery.json.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "0b8ffaa7c45831d22e7f5fbafbf6f9492625eff743a65e28f6aacffa41b3273b"
+    },
+    {
+      "id": "SRC-036",
+      "title": "jquery.min_lRye.js",
+      "filename": "jquery.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "cb6f2d32c49d1c2b25e9ffc9aaafa3f83075346c01bcd4ae6eb187392a4292cf"
+    },
+    {
+      "id": "SRC-037",
+      "title": "js.cookie.min_lRye.js",
+      "filename": "js.cookie.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "8b083f64f2e9e8ac445c730dfce7013cc6449ce155fd1c2f42b60edba4ecb4b1"
+    },
+    {
+      "id": "SRC-038",
+      "title": "js_lRye",
+      "filename": "js_lRye",
+      "status": "web_support_asset",
+      "sha256": "0d6009bc1455f2a927dd73024d32a9067797b31e026ad21bb97cbe3f84f83020"
+    },
+    {
+      "id": "SRC-039",
+      "title": "main.min_lRye.js",
+      "filename": "main.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "7c56cf739008459d6106eac115b7094b0054e446d1cfa356570b2263669b9866"
+    },
+    {
+      "id": "SRC-040",
+      "title": "modal_lRye.js",
+      "filename": "modal_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "f525f2bf06f94961d8a9273d87c4988b19af30328f0be45002f32327c203faae"
+    },
+    {
+      "id": "SRC-041",
+      "title": "order-attribution.min_lRye.js",
+      "filename": "order-attribution.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "0eb862a5891526d089b727fdfa30222cca4b4d75b5835727bf57df17436256f6"
+    },
+    {
+      "id": "SRC-042",
+      "title": "placeholders.jquery.min_lRye.js",
+      "filename": "placeholders.jquery.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "d62a7b7ec5313469ebff5c006b9068dc44d6d1c122cf787ffa29a10113b34060"
+    },
+    {
+      "id": "SRC-043",
+      "title": "scripts-theme.min_lRye.js",
+      "filename": "scripts-theme.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "33bed2e57f2497a500fc8f4a19ccd7cfe457e23eb6272bb0c7bddb4e4e8feb9e"
+    },
+    {
+      "id": "SRC-044",
+      "title": "search-overlay_lRye.js",
+      "filename": "search-overlay_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "caa5cdc5375834c1d4af467007497482969c038f6908315caa6a955b6febfd4e"
+    },
+    {
+      "id": "SRC-045",
+      "title": "sourcebuster.min_lRye.js",
+      "filename": "sourcebuster.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "c50a0b33030ba0ec063be642c297f48af94359e2222ff140817248d591faf837"
+    },
+    {
+      "id": "SRC-046",
+      "title": "style.min_002_lRye.css",
+      "filename": "style.min_002_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "cdc7be9a40f63bb38ffc996e8d57e96c489faed65ac8de1f831fc148d431d8a7"
+    },
+    {
+      "id": "SRC-047",
+      "title": "style.min_lRye.css",
+      "filename": "style.min_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "ffbb28f2d8f19ab18a1ef428a0cfa6507945705bb7ce986c50fbba723008799d"
+    },
+    {
+      "id": "SRC-048",
+      "title": "style_lRye.css",
+      "filename": "style_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "033220babf4465bf1c1b014fc61322f337e4360439d73ce91c81525e0182869e"
+    },
+    {
+      "id": "SRC-049",
+      "title": "theme.min_lRye.css",
+      "filename": "theme.min_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "33b3492b09631a21877dfe0fb17323bc5ea33f73e1aa2f88e6cdcbd180a5e751"
+    },
+    {
+      "id": "SRC-050",
+      "title": "utils.min_lRye.js",
+      "filename": "utils.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "efd32d1d804c3e5eff37add13dbb466238a6082c14cb35b193479a3acd0098cf"
+    },
+    {
+      "id": "SRC-051",
+      "title": "vendor-theme.min_lRye.js",
+      "filename": "vendor-theme.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "b4385e9956620042243f9e05cc215f6f5e1e3fcea52cb7a8dda894de1e63920e"
+    },
+    {
+      "id": "SRC-052",
+      "title": "view.min_lRye.js",
+      "filename": "view.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "25ee935fd6c67371d0f37f630e657a16e0f7829466d1941fd84522306089920b"
+    },
+    {
+      "id": "SRC-053",
+      "title": "woocommerce-layout_lRye.css",
+      "filename": "woocommerce-layout_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "c52dc19e1f84684beb82391dacc133a11400f1c351dc2c456fb38a1e22ec8ddd"
+    },
+    {
+      "id": "SRC-054",
+      "title": "woocommerce-smallscreen_lRye.css",
+      "filename": "woocommerce-smallscreen_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "262c2912a618e3aa1af029cba7dde16245c35dd550bb10fa72c74b435456097a"
+    },
+    {
+      "id": "SRC-055",
+      "title": "woocommerce.min_lRye.js",
+      "filename": "woocommerce.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "a83bd8463b628e661482010504cbb69143b13461a0178cb4f7b929aa28efa96f"
+    },
+    {
+      "id": "SRC-056",
+      "title": "woocommerce_lRye.css",
+      "filename": "woocommerce_lRye.css",
+      "status": "web_support_asset",
+      "sha256": "80f45f78239104690319043ad10ddaa7c9dbc8a868b05fc1c80dfe596f9ff56d"
+    },
+    {
+      "id": "SRC-057",
+      "title": "wp-emoji-release.min_lRye.js",
+      "filename": "wp-emoji-release.min_lRye.js",
+      "status": "web_support_asset",
+      "sha256": "063840b4b3f5869e0f0d078bab8bd29cfb3a59ee85e8e3edbbec35a8fe846fd3"
+    },
+    {
+      "id": "SRC-058",
+      "title": "LA Times_Fri__Feb_11__1955 DIKE NAGANO FT MOORE.pdf",
+      "filename": "LA Times_Fri__Feb_11__1955 DIKE NAGANO FT MOORE.pdf",
+      "status": "ocr_extracted",
+      "sha256": "a05b0855ade32ccd7565260e34f9968d067ed81def1bad7ab5c2a413066a02aa"
+    },
+    {
+      "id": "SRC-059",
+      "title": "LA Times_Thu__Aug_26__1965 DIKE NAGANO OBIT 8-26-1965.jpg",
+      "filename": "LA Times_Thu__Aug_26__1965 DIKE NAGANO OBIT 8-26-1965.jpg",
+      "status": "ocr_extracted",
+      "sha256": "493b80539405d07cc151398c4c2e8a0f092fb478a9a105b6dc85c3427dd09578"
+    },
+    {
+      "id": "SRC-060",
+      "title": "LA Times_Wed__Jan_24__1951Adachi Nagano Blachnik.pdf",
+      "filename": "LA Times_Wed__Jan_24__1951Adachi Nagano Blachnik.pdf",
+      "status": "ocr_extracted",
+      "sha256": "9415233ea6cecf1d5e776c13f8f58cddd7b6a174fed8cee374e61f313253f3ce"
+    },
+    {
+      "id": "SRC-061",
+      "title": "RESIDENT'S NAMES AFT 1970 HAND-WRITTEN COULD BE LANDSC CONDITION LIST.jpg",
+      "filename": "RESIDENT'S NAMES AFT 1970 HAND-WRITTEN COULD BE LANDSC CONDITION LIST.jpg",
+      "status": "ocr_extracted",
+      "sha256": "05c77ccd87ed79502964627e4c80b5faf29d6af683667b96d7e67b65533ffd46"
+    },
+    {
+      "id": "SRC-062",
+      "title": "BANK PL SUGGESTED - LOTS 8-13, 28, 30, 33-38, 54, 65 WPA FROM ECKBO ARCHIVES.docx",
+      "filename": "BANK PL SUGGESTED - LOTS 8-13, 28, 30, 33-38, 54, 65 WPA FROM ECKBO ARCHIVES.docx",
+      "status": "extracted",
+      "sha256": "2026b303a3a4eb3b2f593284277a2706e77241c73f46bb4efff4fcc86a4144c0"
+    },
+    {
+      "id": "SRC-063",
+      "title": "BANK PLANTS FOR LOTS 1-7, 23-27, 43C-48C, 59C, 61C, 64C (1).psd",
+      "filename": "BANK PLANTS FOR LOTS 1-7, 23-27, 43C-48C, 59C, 61C, 64C (1).psd",
+      "status": "ocr_extracted",
+      "sha256": "dd83d353a5a4e69249b1aa641b80397e2b917dacdc71cc3cc21de45f4ef795b6"
+    },
+    {
+      "id": "SRC-064",
+      "title": "BANK PLANTS FOR LOTS 1-7, 23-27, 43C-48C, 59C, 61C, 64C (2).psd",
+      "filename": "BANK PLANTS FOR LOTS 1-7, 23-27, 43C-48C, 59C, 61C, 64C (2).psd",
+      "status": "duplicate",
+      "sha256": "dd83d353a5a4e69249b1aa641b80397e2b917dacdc71cc3cc21de45f4ef795b6"
+    },
+    {
+      "id": "SRC-065",
+      "title": "BANK PLANTS FOR LOTS 15-17, 29E, 29N, 29B, 31, 31W, 32C, 39C-42C, 49C-53C, 57C, 60C.jpg",
+      "filename": "BANK PLANTS FOR LOTS 15-17, 29E, 29N, 29B, 31, 31W, 32C, 39C-42C, 49C-53C, 57C, 60C.jpg",
+      "status": "ocr_extracted",
+      "sha256": "efde82399eada3a52daf55da8c31d01e0df59f8b75cdd7d3682e556f26e4bc19"
+    },
+    {
+      "id": "SRC-066",
+      "title": "ECKBO TREE PLANT LIST.xlsx",
+      "filename": "ECKBO TREE PLANT LIST.xlsx",
+      "status": "extracted",
+      "sha256": "f0646104861977da58592f1fd4c64d5d4450f53d7f12cf1c97afc5d4adc020a5"
+    },
+    {
+      "id": "SRC-067",
+      "title": "ECKBO'S STORY ABOUT WPA PG 2-READ.jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 2-READ.jpg",
+      "status": "ocr_extracted",
+      "sha256": "8d4f6cd102863144bd29e1dabb6a6e37a4e85966471dc9d4e9d98ca62a8f4d44"
+    },
+    {
+      "id": "SRC-068",
+      "title": "ECKBO'S STORY ABOUT WPA PG 2-SOME STATEMTS IN ARTS & ARCH (1).jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 2-SOME STATEMTS IN ARTS & ARCH (1).jpg",
+      "status": "duplicate",
+      "sha256": "8d4f6cd102863144bd29e1dabb6a6e37a4e85966471dc9d4e9d98ca62a8f4d44"
+    },
+    {
+      "id": "SRC-069",
+      "title": "ECKBO'S STORY ABOUT WPA PG 2-SOME STATEMTS IN ARTS & ARCH.jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 2-SOME STATEMTS IN ARTS & ARCH.jpg",
+      "status": "duplicate",
+      "sha256": "8d4f6cd102863144bd29e1dabb6a6e37a4e85966471dc9d4e9d98ca62a8f4d44"
+    },
+    {
+      "id": "SRC-070",
+      "title": "ECKBO'S STORY ABOUT WPA PG 3-READ (1).jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 3-READ (1).jpg",
+      "status": "ocr_extracted",
+      "sha256": "d0e511484e9280571b92bd0102c98f523e217cb0b2fee24c6fa4f34dbbc7db4a"
+    },
+    {
+      "id": "SRC-071",
+      "title": "ECKBO'S STORY ABOUT WPA PG 3-READ.jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 3-READ.jpg",
+      "status": "duplicate",
+      "sha256": "d0e511484e9280571b92bd0102c98f523e217cb0b2fee24c6fa4f34dbbc7db4a"
+    },
+    {
+      "id": "SRC-072",
+      "title": "ECKBO'S STORY ABOUT WPA PG 3.jpg",
+      "filename": "ECKBO'S STORY ABOUT WPA PG 3.jpg",
+      "status": "duplicate",
+      "sha256": "d0e511484e9280571b92bd0102c98f523e217cb0b2fee24c6fa4f34dbbc7db4a"
+    },
+    {
+      "id": "SRC-073",
+      "title": "HISTORY OF WPA BY ECKBO PG 2_ copy.jpg",
+      "filename": "HISTORY OF WPA BY ECKBO PG 2_ copy.jpg",
+      "status": "ocr_extracted",
+      "sha256": "e801bf7f502b404ffd046fd2dd6077b4323242b26ee11472f213e1b655cfc012"
+    },
+    {
+      "id": "SRC-074",
+      "title": "HISTORY OF WPA BY ECKBO PG 2_.jpg",
+      "filename": "HISTORY OF WPA BY ECKBO PG 2_.jpg",
+      "status": "ocr_extracted",
+      "sha256": "32bb09097138503805aad4562222182b8b283e5c220bd39dcccb9a042298c679"
+    },
+    {
+      "id": "SRC-075",
+      "title": "KERBY'S WRITTEN AFTER 1970-PG 1.jpg",
+      "filename": "KERBY'S WRITTEN AFTER 1970-PG 1.jpg",
+      "status": "ocr_extracted",
+      "sha256": "f1b53d8512c10cf86343ee1d068f5432b4b3a353d30fbcd678225641a7a84c83"
+    },
+    {
+      "id": "SRC-076",
+      "title": "KERBY'S WRITTEN AFTER 1970-PG 2.jpg",
+      "filename": "KERBY'S WRITTEN AFTER 1970-PG 2.jpg",
+      "status": "ocr_extracted",
+      "sha256": "b8b5c2dd8f6d3e026897b9a485cedb380286003143874771825934c86c3f0723"
+    },
+    {
+      "id": "SRC-077",
+      "title": "KERBY'S WRITTEN AFTER 1970-PG 3.jpg",
+      "filename": "KERBY'S WRITTEN AFTER 1970-PG 3.jpg",
+      "status": "ocr_extracted",
+      "sha256": "305f9d899982571d036623ab4fd2e2823636e4d85280f2bd088c9b68e80fef3e"
+    },
+    {
+      "id": "SRC-078",
+      "title": "LIST OF TREES FOR_.jpg",
+      "filename": "LIST OF TREES FOR_.jpg",
+      "status": "ocr_extracted",
+      "sha256": "e3c60a5c8efd15cd418497f906338a93560bf3aab816f640f9c721283361d1a5"
+    },
+    {
+      "id": "SRC-079",
+      "title": "New Microsoft Word Document.docx",
+      "filename": "New Microsoft Word Document.docx",
+      "status": "embedded_image_visually_reviewed",
+      "sha256": "b2475e66c6010c34c43042b71a7d093a4d4a3d1adc75df452fc8e997d3b8b239"
+    },
+    {
+      "id": "SRC-080",
+      "title": "Raport Goldstein property 8961 WPA.docx",
+      "filename": "Raport Goldstein property 8961 WPA.docx",
+      "status": "extracted",
+      "sha256": "8ba6529898d8fbf01dae7bcb824b5d0bd9685b40aaab9031054b91ddb426aec4"
+    },
+    {
+      "id": "SRC-081",
+      "title": "Wonderland Park Libby Simon 3.zip",
+      "filename": "Wonderland Park Libby Simon 3.zip",
+      "status": "archive_listed",
+      "sha256": "2af7c29714817de5152bcbf10ae975173d2c13b1a3dd989d947a545e86305bcd"
+    },
+    {
+      "id": "SRC-082",
+      "title": "ALUMINUM IN THE GARDEN DRAWINGS-8634.jpg",
+      "filename": "ALUMINUM IN THE GARDEN DRAWINGS-8634.jpg",
+      "status": "ocr_extracted",
+      "sha256": "eec2594075a791bc96625aca7f77767e1a7c89aa66007110ccfd31362b8c8694"
+    },
+    {
+      "id": "SRC-083",
+      "title": "ECKBO PLOT PLAN W POOL-8633.jpg",
+      "filename": "ECKBO PLOT PLAN W POOL-8633.jpg",
+      "status": "ocr_extracted",
+      "sha256": "b074c6a17dce9057b4140f15fd1dd962f84cc5515d8ab9241f9ce53cb5db6daf"
+    },
+    {
+      "id": "SRC-084",
+      "title": "FINAL ECKBO PLAN-8628.jpg",
+      "filename": "FINAL ECKBO PLAN-8628.jpg",
+      "status": "ocr_extracted",
+      "sha256": "29f8c33f409cf89dba0799809cad1a9bc2e74ad7115ab1cfd3b9631b7e0d1540"
+    },
+    {
+      "id": "SRC-085",
+      "title": "IMG_8623.jpg",
+      "filename": "IMG_8623.jpg",
+      "status": "ocr_extracted",
+      "sha256": "dc89ec567c24d23a5600bfba1c4cdd001b8a9f1a3271e7f743b92f31ec046bf9"
+    },
+    {
+      "id": "SRC-086",
+      "title": "IMG_8624.jpg",
+      "filename": "IMG_8624.jpg",
+      "status": "ocr_extracted",
+      "sha256": "61a7496344e9da7ea3cb4b7b9ed0f793f342d4e74557c58ddc2a2450f8b5b83a"
+    },
+    {
+      "id": "SRC-087",
+      "title": "PLANTING PLAN ECKBO-8626.jpg",
+      "filename": "PLANTING PLAN ECKBO-8626.jpg",
+      "status": "ocr_extracted",
+      "sha256": "2669d45b78203cf92b9ab1cd18649f178f93d7344313683550c40f832e9a2109"
+    },
+    {
+      "id": "SRC-088",
+      "title": "PLOT PLAN-8625.jpg",
+      "filename": "PLOT PLAN-8625.jpg",
+      "status": "ocr_extracted",
+      "sha256": "2ed7f12918b461642e484c2905b03382f2a90683a73433195e93542c6b02109f"
+    },
+    {
+      "id": "SRC-089",
+      "title": "Wonderland Park Libby Simon 4.zip",
+      "filename": "Wonderland Park Libby Simon 4.zip",
+      "status": "archive_listed",
+      "sha256": "2299a3d14202a739984eba7dfe0bb52a919ec646083e3617e9d6e989b3f36fd9"
+    },
+    {
+      "id": "SRC-090",
+      "title": "Daisuke Dike Nagano 9071 WPA.pdf",
+      "filename": "Daisuke Dike Nagano 9071 WPA.pdf",
+      "status": "ocr_extracted",
+      "sha256": "ee88edbc506ccdbd6a2c47829a383d96eb7885b662c9528c9d0b6f34c7433778"
+    },
+    {
+      "id": "SRC-091",
+      "title": "Daisuke Dike Nagano house in Marina del rey for sale.pdf",
+      "filename": "Daisuke Dike Nagano house in Marina del rey for sale.pdf",
+      "status": "duplicate",
+      "sha256": "ee88edbc506ccdbd6a2c47829a383d96eb7885b662c9528c9d0b6f34c7433778"
+    },
+    {
+      "id": "SRC-092",
+      "title": "Eckbo_project_index-FINAL_print.xls",
+      "filename": "Eckbo_project_index-FINAL_print.xls",
+      "status": "extracted",
+      "sha256": "437fa71286447256985baac9a88c6c9ff3d98d7c5fba09121d731c67d0a1a7ee"
+    },
+    {
+      "id": "SRC-093",
+      "title": "Independent_Press_Telegram_Sun__Jan_31__1960 DIKE NAGANO.pdf",
+      "filename": "Independent_Press_Telegram_Sun__Jan_31__1960 DIKE NAGANO.pdf",
+      "status": "ocr_extracted",
+      "sha256": "f848591e46bc977346ecde8986fee2ab23dd9d5ed672fde94b12f7dda0a2dd57"
+    },
+    {
+      "id": "SRC-094",
+      "title": "LA Times_Fri__Feb_11__1955 DIKE NAGANO FT MOORE.pdf",
+      "filename": "LA Times_Fri__Feb_11__1955 DIKE NAGANO FT MOORE.pdf",
+      "status": "duplicate",
+      "sha256": "a05b0855ade32ccd7565260e34f9968d067ed81def1bad7ab5c2a413066a02aa"
+    },
+    {
+      "id": "SRC-095",
+      "title": "LA Times_Sat__Mar_10__1951 DIKE NAGANO CONTEST.pdf",
+      "filename": "LA Times_Sat__Mar_10__1951 DIKE NAGANO CONTEST.pdf",
+      "status": "ocr_extracted",
+      "sha256": "e0db9c263635dffa1a83850cf4fc980bc86939c79293f8b4d74cf621840a0531"
+    },
+    {
+      "id": "SRC-096",
+      "title": "LA Times_Sun__Apr_22__1951 DIKE NAGANO KITCHENS.pdf",
+      "filename": "LA Times_Sun__Apr_22__1951 DIKE NAGANO KITCHENS.pdf",
+      "status": "ocr_extracted",
+      "sha256": "b5ecb704b2d5b31a83bd5885cd387b04430dc1daaaa28be1194db7fbfcd1398c"
+    },
+    {
+      "id": "SRC-097",
+      "title": "LA Times_Sun__Dec_18__1960 DIKE NAGANO.pdf",
+      "filename": "LA Times_Sun__Dec_18__1960 DIKE NAGANO.pdf",
+      "status": "ocr_extracted",
+      "sha256": "1012841e757d7759a41c2ebbebfc02af39ecdfa368a123990297c8c4e2882f89"
+    },
+    {
+      "id": "SRC-098",
+      "title": "LA Times_Sun__Nov_9__1952 DIKE NAGANO.pdf",
+      "filename": "LA Times_Sun__Nov_9__1952 DIKE NAGANO.pdf",
+      "status": "ocr_extracted",
+      "sha256": "1d124823599622edebe510bc6ba68bc0eb0f337da4d917b5b18589536e5c2138"
+    },
+    {
+      "id": "SRC-099",
+      "title": "LA Times_Thu__Aug_26__1965 DIKE NAGANO OBIT 8-26-1965.jpg",
+      "filename": "LA Times_Thu__Aug_26__1965 DIKE NAGANO OBIT 8-26-1965.jpg",
+      "status": "duplicate",
+      "sha256": "493b80539405d07cc151398c4c2e8a0f092fb478a9a105b6dc85c3427dd09578"
+    },
+    {
+      "id": "SRC-100",
+      "title": "LA Times_Wed__Jan_24__1951 DIKE NAGANO AWARD.pdf",
+      "filename": "LA Times_Wed__Jan_24__1951 DIKE NAGANO AWARD.pdf",
+      "status": "ocr_extracted",
+      "sha256": "aebc5f27e1c6ef5d553093f5f6b92572b1813b08c1f2f85b01284f9b1df4f361"
+    },
+    {
+      "id": "SRC-101",
+      "title": "LA Times_Wed__Jan_24__1951Adachi Nagano Blachnik.pdf",
+      "filename": "LA Times_Wed__Jan_24__1951Adachi Nagano Blachnik.pdf",
+      "status": "duplicate",
+      "sha256": "9415233ea6cecf1d5e776c13f8f58cddd7b6a174fed8cee374e61f313253f3ce"
+    },
+    {
+      "id": "SRC-102",
+      "title": "RESIDENT'S NAMES AFT 1970 HAND-WRITTEN COULD BE LANDSC CONDITION LIST.jpg",
+      "filename": "RESIDENT'S NAMES AFT 1970 HAND-WRITTEN COULD BE LANDSC CONDITION LIST.jpg",
+      "status": "duplicate",
+      "sha256": "05c77ccd87ed79502964627e4c80b5faf29d6af683667b96d7e67b65533ffd46"
+    },
+    {
+      "id": "SRC-103",
+      "title": "Yehuda LAVEE Obituary - Los Angeles, CA _ Los Angeles Times.pdf",
+      "filename": "Yehuda LAVEE Obituary - Los Angeles, CA _ Los Angeles Times.pdf",
+      "status": "extracted",
+      "sha256": "06e61524e5b5f2b4e73672b08807c1ed3795625a7fc4b7b653958b1c7e9b7f37"
+    },
+    {
+      "id": "SRC-104",
+      "title": "Wonderland Park Libby Simon Sept 19 2026.zip",
+      "filename": "Wonderland Park Libby Simon Sept 19 2026.zip",
+      "status": "archive_listed",
+      "sha256": "fde828c67bbb54e8e5cd76037990ed049c77e76f8b789153f69c9c697070c47a"
+    },
+    {
+      "id": "SRC-105",
+      "title": "Arts and Architecture [The Perception of Landscape] 1, no. 4 (1982)-1.pdf",
+      "filename": "Arts and Architecture [The Perception of Landscape] 1, no. 4 (1982)-1.pdf",
+      "status": "ocr_extracted",
+      "sha256": "672e6e2cb22293664db72a0e50c24f848e3baeff3d43ade11796dc3253eb70e7"
+    },
+    {
+      "id": "SRC-106",
+      "title": "Eden Eckbo in Wonderland Libby Simon.pdf",
+      "filename": "Eden Eckbo in Wonderland Libby Simon.pdf",
+      "status": "ocr_extracted",
+      "sha256": "d839fde400c87b2d68b528ee5c44533f107a7cf6ef1f2baefaaf335666e39a74"
+    },
+    {
+      "id": "SRC-107",
+      "title": "Marc Treib_The Eckbo Garden at Wonderland Park.pdf",
+      "filename": "Marc Treib_The Eckbo Garden at Wonderland Park.pdf",
+      "status": "ocr_extracted",
+      "sha256": "b01a1691435259850249a3f90ab7ef6a1f3d2ac05cbfe65560ef11ba36c02071"
+    },
+    {
+      "id": "CORE-06",
+      "title": "06_WPHOA_1956-1958_GeneralMeetingMinutes.pdf",
+      "filename": "06_WPHOA_1956-1958_GeneralMeetingMinutes.pdf",
+      "status": "prior-chat page-labelled OCR reviewed"
+    },
+    {
+      "id": "CORE-10",
+      "title": "10_WPHOA_c1959-1966_MembershipMinutes_CivilRights.pdf",
+      "filename": "10_WPHOA_c1959-1966_MembershipMinutes_CivilRights.pdf",
+      "status": "prior-chat page-labelled OCR reviewed"
+    },
+    {
+      "id": "CORE-12",
+      "title": "12_WPHOA_1965_AnniversaryPartyInvitations.pdf",
+      "filename": "12_WPHOA_1965_AnniversaryPartyInvitations.pdf",
+      "status": "prior-chat page-labelled OCR reviewed"
+    },
+    {
+      "id": "CORE-17",
+      "title": "17_WPHOA_1950-1966_FoundingDocs_Compilation.pdf",
+      "filename": "17_WPHOA_1950-1966_FoundingDocs_Compilation.pdf",
+      "status": "prior-chat page-labelled OCR reviewed"
+    },
+    {
+      "id": "SRC-WORKBOOK",
+      "title": "Index Wonderland Park Houses.xlsx",
+      "filename": "Index Wonderland Park Houses.xlsx",
+      "status": "original index rows retained"
+    },
+    {
+      "id": "SRC-PARCELS",
+      "title": "Los Angeles County Parcels - situs addresses and parcel centroids",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0",
+      "status": "retrieved 2026-10-23; exact address matches only"
+    }
+  ],
+  "limitations": [
+    "Image-only pages were OCRed locally using ArcGIS Pro Tesseract. Low-confidence photo/plan/handwritten pages are flagged in sources and require visual confirmation; their unverified text was not asserted as a factual claim.",
+    "Only explicit modern addresses and the visually confirmed Eckbo lot title were recorded; no coordinate was inferred from these readings.",
+    "General theory is separate from property-specific evidence; master-plan participation does not prove a commissioned individual garden.",
+    "House date and ALCOA chronology differ among sources; retain conflicting attributions.",
+    "Project index dates are archival project dates and should not replace house construction dates.",
+    "Locations are parcel centroids, not measured building footprints. Unmatched/ambiguous addresses are retained in the table but omitted from the map.",
+    "Index records are student research, not independently verified permits. Source-specific conflicting attributions remain visible."
+  ]
+}

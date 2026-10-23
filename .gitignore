@@ -5,3 +5,8 @@ node_modules/
 .dev.vars
 .dev.vars.*
 .DS_Store
+
+tmp/
+outputs/
+assets/research-*.js
+assets/research-*.css
