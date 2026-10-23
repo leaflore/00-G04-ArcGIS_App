@@ -156,3 +156,17 @@ After a successful deployment, reload the page before retrying Connect Esri AI.
 
 Cloudflare documents the hosted-build limitation in its
 [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/).
+
+## Sign-in returns and retry behavior
+
+The map and research sidebar use `src/arcgis-auth.js` to complete OAuth with one
+CDN IdentityManager. The npm AI bundle is imported only after that session is
+ready, and receives the named-user credential in memory. The saved AI intent is
+consumed once after a redirect. If that return fails, the app stays on the page
+and shows a retry message instead of automatically sending the visitor back to
+sign-in. An unavailable map app token also never triggers login on page load;
+use **Sign in to load map** or **Connect Esri AI chat** to initiate sign-in.
+
+Deploy the new native auth module along with the changed browser scripts and
+rebuilt AI assets. Keep the existing ArcGIS client IDs, secrets, and registered
+redirect URLs. Live organizational sign-in still needs to be tested after deployment.

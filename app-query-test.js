@@ -1,10 +1,9 @@
+import { getArcGISSession } from "./src/arcgis-auth.js";
 // app-query-test.js - Isolated client query experiment; based on app.js - Frontend Cloudflare Pages Mapping Script
 
 // ----- IMPORTANT: IMPORT STATEMENTS -----
-const identityManager = await $arcgis.import("@arcgis/core/identity/IdentityManager");
 const esriConfig = await $arcgis.import("@arcgis/core/config.js");
 const SceneLayer = await $arcgis.import("@arcgis/core/layers/SceneLayer.js");
-const OAuthInfo = await $arcgis.import("@arcgis/core/identity/OAuthInfo.js");
 const Map = await $arcgis.import("@arcgis/core/Map.js");
 const SceneView = await $arcgis.import("@arcgis/core/views/SceneView.js");
 const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js");
@@ -18,7 +17,7 @@ const FeatureLayer = await $arcgis.import("@arcgis/core/layers/FeatureLayer.js")
 
 async function renderApp() {
     
-    // Prefer the app-level OAuth token from the Worker; fall back to interactive OAuth sign-in if ArcGIS rejects it.
+    // Prefer the Worker app token, then an existing user session. Page load never redirects.
     const appAuth = await fetch('/api/get-map-token').then(r => r.json()).catch(() => ({ valid: false }));
     
     if (appAuth.valid) {
@@ -28,22 +27,7 @@ async function renderApp() {
     } else {
         console.warn("App token unavailable, using sign-in:", appAuth.reason, appAuth.checkStatus ?? "");
 
-        const { clientId } = await (await fetch('/api/oauth-config')).json();
-
-        if (!clientId) throw new Error("ARCGIS_CLIENT_ID is not set on the Worker.");
-
-        const sharingUrl = "https://www.arcgis.com/sharing";
-        
-        identityManager.registerOAuthInfos([new OAuthInfo({ appId: clientId, portalUrl: "https://www.arcgis.com" })]);
-        let credential;
-
-        try {
-            credential = await identityManager.checkSignInStatus(sharingUrl);
-
-        } catch {
-            credential = await identityManager.getCredential(sharingUrl);
-
-        }
+        const { credential } = await getArcGISSession();
         esriConfig.apiKey = credential.token;
     }
 
@@ -155,10 +139,31 @@ async function renderApp() {
 
 // ----- IMPORTANT: CALLING THE RENDER APP FUNCTION -----
 
-renderApp().catch(err => {
+function mapInitializationError(err) {
     console.error("Initialization pipeline failed", err);
-    document.getElementById("queryStatus").textContent = "Unable to initialize the test. Check authentication, network access, and the browser console, then reload.";
-});
+    const status = document.getElementById("queryStatus");
+    if (err.code === "ARCGIS_SIGN_IN_REQUIRED") {
+        status.textContent = "The map needs an ArcGIS sign-in. Local research search remains available. ";
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = "Sign in to load map";
+        button.addEventListener("click", async () => {
+            button.disabled = true;
+            try {
+                await getArcGISSession({ interactive: true });
+                await renderApp();
+            } catch (error) {
+                status.textContent = `Map sign-in failed: ${error.message}. `;
+                button.disabled = false;
+                status.appendChild(button);
+            }
+        });
+        status.appendChild(button);
+    } else {
+        status.textContent = "Unable to initialize the map. Check network access and the browser console, then reload.";
+    }
+}
+renderApp().catch(mapInitializationError);
 async function setupClientQueries(view, buildings) {
     const [GraphicsLayer, SketchViewModel, Graphic, bufferOperator, reactiveUtils,
         Point, webMercatorUtils, intersectionOperator] = await $arcgis.import([

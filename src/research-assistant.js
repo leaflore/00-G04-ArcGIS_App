@@ -1,3 +1,4 @@
+import { getArcGISSession, consumeEsriIntent } from "./arcgis-auth.js";
 import { searchResearch, formatResearchAnswer, recordLabel, recordId, yearLabel, textValue, citationLabel, objectIdWhere, locationNeedsReview } from "./research-search.js";
 
 // Native browser entry: no package imports and no LLM requests on page load.
@@ -22,10 +23,11 @@ function saveEsriIntent(enabled) {
     } catch { /* Local search also works when browser storage is disabled. */ }
 }
 
-function savedEsriIntent() {
-    try { return sessionStorage.getItem("wonderland-esri-assistant") === "enabled"; }
+function consumeSavedEsriIntent() {
+    try { return consumeEsriIntent(sessionStorage); }
     catch { return false; }
 }
+const resumeEsri = consumeSavedEsriIntent();
 
 function loadEsriStyles() {
     if (document.querySelector('link[data-wonderland-ai-styles]')) return Promise.resolve();
@@ -177,23 +179,29 @@ form?.addEventListener("submit", async event => {
     } catch (error) { if (version === searchRevision) status(error.message); }
 });
 
-async function connectEsri() {
+async function connectEsri({ interactive = false } = {}) {
     if (connecting || !connectButton) return;
     if (!corpusReady) {
         status("The research catalog is still loading. Connect Esri AI once local search is ready.");
         return;
     }
-    let adapterLoaded = false;
+    let stage = "sign-in";
     connecting = true;
     connectButton.disabled = true;
     status("Loading optional Esri AI assistant. ArcGIS Online organization sign-in is required.");
     try {
-        // A boolean intent flag permits OAuth redirect/resume. No token or
-        // research text is stored by this application.
-        saveEsriIntent(true);
+        // Complete the CDN manager's callback before importing the npm SDK.
+        // Only a deliberate click may initiate a new redirect.
+        const session = await getArcGISSession({
+            interactive,
+            beforeRedirect: () => saveEsriIntent(true)
+        });
+        saveEsriIntent(false);
+        stage = "assets";
         const [adapter] = await Promise.all([import("/assets/research-ai.js"), loadEsriStyles()]);
-        adapterLoaded = true;
+        stage = "assistant";
         await adapter.enableResearchAI({
+            session,
             assistant: byId("researchAssistant"),
             executeQuery: runQuery,
             status
@@ -203,7 +211,7 @@ async function connectEsri() {
     } catch (error) {
         saveEsriIntent(false);
         const detail = error?.message || "Unable to connect";
-        if (!adapterLoaded) {
+        if (stage === "assets") {
             status(`Esri AI files could not load: ${detail}. Reload the page after deployment finishes. Local research search remains available.`);
             console.error("AI asset loading failed. Build with npm run build and deploy assets/research-ai.js, its CSS, and all generated chunks.", error);
         } else {
@@ -213,7 +221,7 @@ async function connectEsri() {
     } finally { connecting = false; }
 }
 
-connectButton?.addEventListener("click", connectEsri);
+connectButton?.addEventListener("click", () => connectEsri({ interactive: true }));
 
 // Loading the local corpus separately avoids a failed scene/auth request
 // blocking research, and avoids a race if the scene emitted its event first.
@@ -225,7 +233,7 @@ if (form) {
         })
         .then(data => {
             if (!corpusReady) acceptCorpus(data);
-            if (savedEsriIntent()) connectEsri();
+            if (resumeEsri) connectEsri();
         })
         .catch(error => status(`Research catalog could not load: ${error.message}. Reload after deployment finishes.`));
 }

@@ -11,6 +11,7 @@
 !src/
 !src/research-assistant.js
 !src/research-search.js
+!src/arcgis-auth.js
 src/worker.js
 src/research-ai.js
 !assets/
