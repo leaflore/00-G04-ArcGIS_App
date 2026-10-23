@@ -5,6 +5,10 @@ main = "src/worker.js"
 compatibility_date = "2026-10-12"
 
 # Serve index.html and the app/CSS files. .assetsignore limits public files.
+# Generate the optional AI assets before local Wrangler dev/deploy.
+[build]
+command = "npm run build"
+
 [assets]
 directory = "."
 # Matches env.ASSETS.fetch(request) in src/worker.js.

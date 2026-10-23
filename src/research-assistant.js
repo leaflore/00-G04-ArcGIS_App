@@ -183,6 +183,7 @@ async function connectEsri() {
         status("The research catalog is still loading. Connect Esri AI once local search is ready.");
         return;
     }
+    let adapterLoaded = false;
     connecting = true;
     connectButton.disabled = true;
     status("Loading optional Esri AI assistant. ArcGIS Online organization sign-in is required.");
@@ -191,6 +192,7 @@ async function connectEsri() {
         // research text is stored by this application.
         saveEsriIntent(true);
         const [adapter] = await Promise.all([import("/assets/research-ai.js"), loadEsriStyles()]);
+        adapterLoaded = true;
         await adapter.enableResearchAI({
             assistant: byId("researchAssistant"),
             executeQuery: runQuery,
@@ -201,7 +203,12 @@ async function connectEsri() {
     } catch (error) {
         saveEsriIntent(false);
         const detail = error?.message || "Unable to connect";
-        status(`Esri AI is unavailable: ${detail}. Local research search remains available. For Esri AI, your ArcGIS Online organization must enable AI assistants and permit beta capabilities.`);
+        if (!adapterLoaded) {
+            status(`Esri AI files could not load: ${detail}. Reload the page after deployment finishes. Local research search remains available.`);
+            console.error("AI asset loading failed. Build with npm run build and deploy assets/research-ai.js, its CSS, and all generated chunks.", error);
+        } else {
+            status(`Esri AI could not connect: ${detail}. Local research search remains available.`);
+        }
         connectButton.disabled = false;
     } finally { connecting = false; }
 }

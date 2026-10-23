@@ -110,7 +110,10 @@ Keep the original Worker runtime credentials in Cloudflare's Variables & Secrets
 Install/build/check locally with `npm ci`, `npm run build`, and `npm test`.
 The build creates `assets/research-*.js` and CSS, loaded only when AI is activated.
 Generated assets and `node_modules` are ignored by Git; Cloudflare must run the build
-command on each deployment. `.assetsignore` permits only the required native
+command on each deployment. The `[build]` command in `wrangler.toml` also generates these
+assets for local Wrangler dev/deploy. Keep the Cloudflare Workers Builds dashboard
+build command set to `npm run build`: hosted Builds does not honor Wrangler custom
+build configuration. `.assetsignore` permits only the required native
 research modules, compiled AI assets, data catalog, and browser app files. Worker
 source and local ingestion/OCR outputs are excluded.
 
@@ -139,3 +142,17 @@ end-to-end AI interaction still requires your named-user organization session.
 Esri references: [custom agents](https://developers.arcgis.com/javascript/latest/agentic-apps/ai-custom-agents/),
 [AI access requirements](https://developers.arcgis.com/javascript/latest/agentic-apps/ai-faq/),
 and [Data Exploration scope](https://developers.arcgis.com/javascript/latest/references/ai-components/components/arcgis-assistant-data-exploration-agent/).
+
+## Troubleshooting missing AI files
+
+If Connect Esri AI reports a dynamic import error for `/assets/research-ai.js`,
+check that URL in the browser Network panel. A 404 means the AI bundle is missing
+from the deployment; it does not establish an ArcGIS account-permissions problem.
+Ensure the Cloudflare build command is `npm run build`, then deploy again.
+The deployment must include `assets/research-ai.js`, `assets/research-ai.css`,
+and all generated `assets/research-chunk-*.js` files. These are generated from
+Git-tracked sources during the build and intentionally are not committed.
+After a successful deployment, reload the page before retrying Connect Esri AI.
+
+Cloudflare documents the hosted-build limitation in its
+[Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/).
